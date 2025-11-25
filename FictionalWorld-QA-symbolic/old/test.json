@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "symbolic_0931",
+    "question": "Based on the globally defined rules, what is the value of '39 * 48 * 36 + 47 - 30'?",
+    "options": {
+      "A": "30.06",
+      "B": "31.06",
+      "C": "1404.75",
+      "D": "67409"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0737",
+    "question": "Based on the globally defined rules, what is the value of '84 - 60 + 76 * 78'?",
+    "options": {
+      "A": "25.54",
+      "B": "5951",
+      "C": "5952",
+      "D": "142.46"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0740",
+    "question": "Based on the globally defined rules, what is the value of '54 - 75 + 99 + 50'?",
+    "options": {
+      "A": "371304",
+      "B": "128",
+      "C": "127",
+      "D": "314321.77"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0004",
+    "question": "Based on the globally defined rules, what is the value of '8 + 5'?",
+    "options": {
+      "A": "13",
+      "B": "42",
+      "C": "40",
+      "D": "51.45"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0909",
+    "question": "Based on the globally defined rules, what is the value of '( 45 - 49 ) / 40 + 30 - 37'?",
+    "options": {
+      "A": "-8.1",
+      "B": "-1069",
+      "C": "-1068",
+      "D": "-7.1"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0162",
+    "question": "Based on the globally defined rules, what is the value of '61 * 84'?",
+    "options": {
+      "A": "-0.27",
+      "B": "5124",
+      "C": "0.73",
+      "D": "145"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0446",
+    "question": "Based on the globally defined rules, what is the value of '70 + 86 * 96'?",
+    "options": {
+      "A": "8325",
+      "B": "70.9",
+      "C": "8326",
+      "D": "62.71"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0932",
+    "question": "Based on the globally defined rules, what is the value of '47 / 37 - ( 31 + 39 ) - 48'?",
+    "options": {
+      "A": "94.97",
+      "B": "-116.73",
+      "C": "1258.27",
+      "D": "1267"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0999",
+    "question": "Based on the globally defined rules, what is the value of '75 * 58 - 76 - 77 / 57'?",
+    "options": {
+      "A": "4272.65",
+      "B": "20.02",
+      "C": "4271.65",
+      "D": "97.29"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0956",
+    "question": "Based on the globally defined rules, what is the value of '( 52 / 86 ) + 83 * 62 * 78'?",
+    "options": {
+      "A": "563120.24",
+      "B": "401388.6",
+      "C": "-2.22",
+      "D": "-0.58"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0657",
+    "question": "Based on the globally defined rules, what is the value of '29 * 30 + 41 / 47'?",
+    "options": {
+      "A": "871.87",
+      "B": "-7.37",
+      "C": "870.87",
+      "D": "-6.37"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0788",
+    "question": "Based on the globally defined rules, what is the value of '56 - ( 57 + 50 ) - 94'?",
+    "options": {
+      "A": "-110.81",
+      "B": "-144",
+      "C": "3000",
+      "D": "-145"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0900",
+    "question": "Based on the globally defined rules, what is the value of '20 + 24 / 16 * 11 * 11'?",
+    "options": {
+      "A": "622.11",
+      "B": "201.5",
+      "C": "479.87",
+      "D": "464.0"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0769",
+    "question": "Based on the globally defined rules, what is the value of '90 / 73 + 75 * 95'?",
+    "options": {
+      "A": "45.3",
+      "B": "7126.23",
+      "C": "-520035",
+      "D": "32.37"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0937",
+    "question": "Based on the globally defined rules, what is the value of '38 / 48 + 32 * 30 + 33'?",
+    "options": {
+      "A": "-1826.26",
+      "B": "36.45",
+      "C": "993.79",
+      "D": "-1651.6"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0699",
+    "question": "Based on the globally defined rules, what is the value of '( 47 * 37 ) / 43 / 46'?",
+    "options": {
+      "A": "4.27",
+      "B": "0.88",
+      "C": "-87.73",
+      "D": "-86.73"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0118",
+    "question": "Based on the globally defined rules, what is the value of '48 / 34'?",
+    "options": {
+      "A": "0.41",
+      "B": "1.41",
+      "C": "14",
+      "D": "-0.64"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0739",
+    "question": "Based on the globally defined rules, what is the value of '77 - 73 / 85 + 63'?",
+    "options": {
+      "A": "-4236.56",
+      "B": "-5205",
+      "C": "-5204",
+      "D": "139.14"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0831",
+    "question": "Based on the globally defined rules, what is the value of '8 + 8 * ( 8 * 10 ) + 2'?",
+    "options": {
+      "A": "650",
+      "B": "649",
+      "C": "160.0",
+      "D": "123.89"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0012",
+    "question": "Based on the globally defined rules, what is the value of '8 / 7'?",
+    "options": {
+      "A": "2.35",
+      "B": "1.14",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0567",
+    "question": "Based on the globally defined rules, what is the value of '10 - 10 - 7 / 3'?",
+    "options": {
+      "A": "-1.33",
+      "B": "-2.33",
+      "C": "24",
+      "D": "37.53"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0258",
+    "question": "Based on the globally defined rules, what is the value of '7 - 2 / 9'?",
+    "options": {
+      "A": "0",
+      "B": "6.78",
+      "C": "2.0",
+      "D": "5"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0542",
+    "question": "Based on the globally defined rules, what is the value of '( 5 / 4 ) * 3 - 9'?",
+    "options": {
+      "A": "9.33",
+      "B": "-6.25",
+      "C": "12.0",
+      "D": "-5.25"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0480",
+    "question": "Based on the globally defined rules, what is the value of '70 + 69 / 90'?",
+    "options": {
+      "A": "70.77",
+      "B": "4741",
+      "C": "4740",
+      "D": "56.5"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0964",
+    "question": "Based on the globally defined rules, what is the value of '59 * 84 * 61 - 86 - 78'?",
+    "options": {
+      "A": "416084.53",
+      "B": "78.0",
+      "C": "302152",
+      "D": "164.01"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0391",
+    "question": "Based on the globally defined rules, what is the value of '32 + 49 / 31'?",
+    "options": {
+      "A": "-30.35",
+      "B": "33.58",
+      "C": "1537",
+      "D": "1538"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0395",
+    "question": "Based on the globally defined rules, what is the value of '31 * 39 / 42'?",
+    "options": {
+      "A": "28.79",
+      "B": "-41.21",
+      "C": "-39.21",
+      "D": "33.38"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0066",
+    "question": "Based on the globally defined rules, what is the value of '12 - 18'?",
+    "options": {
+      "A": "20.19",
+      "B": "30",
+      "C": "-6",
+      "D": "-8.66"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0611",
+    "question": "Based on the globally defined rules, what is the value of '15 + 13 - 24 + 16'?",
+    "options": {
+      "A": "579",
+      "B": "203",
+      "C": "20",
+      "D": "578"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0957",
+    "question": "Based on the globally defined rules, what is the value of '( 90 + 60 ) / 56 - 77 + 60'?",
+    "options": {
+      "A": "9964",
+      "B": "9965",
+      "C": "307020",
+      "D": "-14.32"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0697",
+    "question": "Based on the globally defined rules, what is the value of '( 45 * 48 ) - 43 / 45'?",
+    "options": {
+      "A": "2159.04",
+      "B": "-1.86",
+      "C": "-1.06",
+      "D": "2410.05"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0812",
+    "question": "Based on the globally defined rules, what is the value of '2 * 1 / 4 + 9 - 3'?",
+    "options": {
+      "A": "-31.0",
+      "B": "-30.0",
+      "C": "6.5",
+      "D": "7.5"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0959",
+    "question": "Based on the globally defined rules, what is the value of '51 + 71 * 74 - 75 + 97'?",
+    "options": {
+      "A": "5327",
+      "B": "9445.05",
+      "C": "7323.93",
+      "D": "7322.93"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0643",
+    "question": "Based on the globally defined rules, what is the value of '11 / 24 * 15 / 14'?",
+    "options": {
+      "A": "0.49",
+      "B": "-4.6",
+      "C": "1.61",
+      "D": "3.6"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0157",
+    "question": "Based on the globally defined rules, what is the value of '99 / 56'?",
+    "options": {
+      "A": "2.77",
+      "B": "43",
+      "C": "44",
+      "D": "1.77"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0113",
+    "question": "Based on the globally defined rules, what is the value of '28 - 39'?",
+    "options": {
+      "A": "67",
+      "B": "66",
+      "C": "-6.83",
+      "D": "-11"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0049",
+    "question": "Based on the globally defined rules, what is the value of '5 / 3'?",
+    "options": {
+      "A": "0.67",
+      "B": "3.17",
+      "C": "2",
+      "D": "1.67"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0774",
+    "question": "Based on the globally defined rules, what is the value of '98 + 71 + 63 * 69'?",
+    "options": {
+      "A": "33.17",
+      "B": "4516",
+      "C": "3648.97",
+      "D": "6352.96"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0094",
+    "question": "Based on the globally defined rules, what is the value of '12 * 13'?",
+    "options": {
+      "A": "0.92",
+      "B": "187.46",
+      "C": "25",
+      "D": "156"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0506",
+    "question": "Based on the globally defined rules, what is the value of '10 * ( 9 / 10 ) / 5'?",
+    "options": {
+      "A": "6.11",
+      "B": "-15.0",
+      "C": "-14.0",
+      "D": "1.8"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0522",
+    "question": "Based on the globally defined rules, what is the value of '10 + 1 - 8 - 4'?",
+    "options": {
+      "A": "22",
+      "B": "-1",
+      "C": "31.56",
+      "D": "24"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0142",
+    "question": "Based on the globally defined rules, what is the value of '38 - 27'?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "65",
+      "D": "1.41"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0882",
+    "question": "Based on the globally defined rules, what is the value of '24 - 22 / ( 12 - 14 ) / 24'?",
+    "options": {
+      "A": "24.46",
+      "B": "48",
+      "C": "-48.91",
+      "D": "-4"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0926",
+    "question": "Based on the globally defined rules, what is the value of '( 50 + 27 ) + 36 / 25 / 34'?",
+    "options": {
+      "A": "77.04",
+      "B": "76.04",
+      "C": "48541",
+      "D": "-21.5"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0409",
+    "question": "Based on the globally defined rules, what is the value of '50 - 29 / 49'?",
+    "options": {
+      "A": "30",
+      "B": "49.41",
+      "C": "19.31",
+      "D": "48.41"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0598",
+    "question": "Based on the globally defined rules, what is the value of '18 * 14 * 11 + 16'?",
+    "options": {
+      "A": "1.87",
+      "B": "2787",
+      "C": "2788",
+      "D": "177.29"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0439",
+    "question": "Based on the globally defined rules, what is the value of '55 - 93 * 69'?",
+    "options": {
+      "A": "56.35",
+      "B": "79",
+      "C": "-6362",
+      "D": "66.43"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0599",
+    "question": "Based on the globally defined rules, what is the value of '11 + 18 * 13 * 17'?",
+    "options": {
+      "A": "0.9",
+      "B": "-0.1",
+      "C": "3989",
+      "D": "3988"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0765",
+    "question": "Based on the globally defined rules, what is the value of '( 71 * 89 ) * 75 * 98'?",
+    "options": {
+      "A": "46444650",
+      "B": "0.03",
+      "C": "0.0",
+      "D": "36178157.86"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0270",
+    "question": "Based on the globally defined rules, what is the value of '3 - 3 - 8'?",
+    "options": {
+      "A": "-9",
+      "B": "3.38",
+      "C": "-8",
+      "D": "14"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0552",
+    "question": "Based on the globally defined rules, what is the value of '10 - 1 / 7 - 6'?",
+    "options": {
+      "A": "13.54",
+      "B": "10",
+      "C": "8",
+      "D": "3.86"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0975",
+    "question": "Based on the globally defined rules, what is the value of '( 54 * 87 ) - 58 / 65 - 95'?",
+    "options": {
+      "A": "4602.11",
+      "B": "88.62",
+      "C": "66.0",
+      "D": "6756.58"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0763",
+    "question": "Based on the globally defined rules, what is the value of '50 * 81 / 59 + 89'?",
+    "options": {
+      "A": "207.08",
+      "B": "157.64",
+      "C": "-5250.38",
+      "D": "-1201"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0253",
+    "question": "Based on the globally defined rules, what is the value of '4 / 2 - 8'?",
+    "options": {
+      "A": "10",
+      "B": "-6.0",
+      "C": "-7.0",
+      "D": "14.81"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0993",
+    "question": "Based on the globally defined rules, what is the value of '94 / 71 * 91 - 63 + 93'?",
+    "options": {
+      "A": "5952.22",
+      "B": "5953.22",
+      "C": "4638.69",
+      "D": "150.48"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0272",
+    "question": "Based on the globally defined rules, what is the value of '5 - 4 * 5'?",
+    "options": {
+      "A": "5.8",
+      "B": "-15",
+      "C": "4",
+      "D": "25"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0147",
+    "question": "Based on the globally defined rules, what is the value of '27 + 42'?",
+    "options": {
+      "A": "69",
+      "B": "82.84",
+      "C": "1133",
+      "D": "1134"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0470",
+    "question": "Based on the globally defined rules, what is the value of '86 + 100 * 82'?",
+    "options": {
+      "A": "104.88",
+      "B": "8518",
+      "C": "8287",
+      "D": "8286"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0659",
+    "question": "Based on the globally defined rules, what is the value of '35 * ( 29 + 46 ) + 46'?",
+    "options": {
+      "A": "0.21",
+      "B": "2671",
+      "C": "1.21",
+      "D": "2670"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0406",
+    "question": "Based on the globally defined rules, what is the value of '37 * 28 * 38'?",
+    "options": {
+      "A": "39368",
+      "B": "27.26",
+      "C": "0.03",
+      "D": "36.26"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0512",
+    "question": "Based on the globally defined rules, what is the value of '2 * 10 / 6 * 9'?",
+    "options": {
+      "A": "-8.67",
+      "B": "-0.47",
+      "C": "30.0",
+      "D": "29.0"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0672",
+    "question": "Based on the globally defined rules, what is the value of '34 / ( 38 - 41 ) - 42'?",
+    "options": {
+      "A": "-54.33",
+      "B": "-53.33",
+      "C": "-3",
+      "D": "-6.02"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0218",
+    "question": "Based on the globally defined rules, what is the value of '4 - 10 - 7'?",
+    "options": {
+      "A": "-16.48",
+      "B": "-13",
+      "C": "-14",
+      "D": "21"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0323",
+    "question": "Based on the globally defined rules, what is the value of '22 + 14 * 12'?",
+    "options": {
+      "A": "26.67",
+      "B": "25.67",
+      "C": "190",
+      "D": "223.43"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0736",
+    "question": "Based on the globally defined rules, what is the value of '( 92 / 59 ) + 50 - 70'?",
+    "options": {
+      "A": "-11.46",
+      "B": "1720",
+      "C": "-18.44",
+      "D": "1721"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0581",
+    "question": "Based on the globally defined rules, what is the value of '22 * 18 / 22 * 23'?",
+    "options": {
+      "A": "415.0",
+      "B": "414.0",
+      "C": "2.22",
+      "D": "0.27"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0217",
+    "question": "Based on the globally defined rules, what is the value of '5 + 6 / 10'?",
+    "options": {
+      "A": "22",
+      "B": "1",
+      "C": "20",
+      "D": "5.6"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0068",
+    "question": "Based on the globally defined rules, what is the value of '25 + 22'?",
+    "options": {
+      "A": "47",
+      "B": "550",
+      "C": "678.03",
+      "D": "46"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0275",
+    "question": "Based on the globally defined rules, what is the value of '3 / 7 / 4'?",
+    "options": {
+      "A": "0.11",
+      "B": "-8",
+      "C": "1.98",
+      "D": "-0.89"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0411",
+    "question": "Based on the globally defined rules, what is the value of '50 / 49 / 34'?",
+    "options": {
+      "A": "-31",
+      "B": "-1616",
+      "C": "-33",
+      "D": "0.03"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0324",
+    "question": "Based on the globally defined rules, what is the value of '25 / 21 - 10'?",
+    "options": {
+      "A": "-8.81",
+      "B": "19.43",
+      "C": "-9.81",
+      "D": "14"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0825",
+    "question": "Based on the globally defined rules, what is the value of '10 / 1 - 6 + 4 + 6'?",
+    "options": {
+      "A": "153",
+      "B": "154",
+      "C": "14.0",
+      "D": "155"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0983",
+    "question": "Based on the globally defined rules, what is the value of '100 * 67 - ( 92 / 76 ) - 53'?",
+    "options": {
+      "A": "70.49",
+      "B": "69.49",
+      "C": "6644.79",
+      "D": "6645.79"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0842",
+    "question": "Based on the globally defined rules, what is the value of '( 10 / 6 ) + 8 / 4 + 2'?",
+    "options": {
+      "A": "5.67",
+      "B": "26",
+      "C": "3.94",
+      "D": "24"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0235",
+    "question": "Based on the globally defined rules, what is the value of '6 / 1 + 9'?",
+    "options": {
+      "A": "-3",
+      "B": "-4",
+      "C": "15.0",
+      "D": "21.75"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0058",
+    "question": "Based on the globally defined rules, what is the value of '11 - 18'?",
+    "options": {
+      "A": "-7",
+      "B": "31",
+      "C": "29",
+      "D": "198"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0795",
+    "question": "Based on the globally defined rules, what is the value of '56 * ( 79 / 81 ) * 96'?",
+    "options": {
+      "A": "-0.29",
+      "B": "0.6",
+      "C": "5243.26",
+      "D": "3094.79"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0787",
+    "question": "Based on the globally defined rules, what is the value of '61 + 84 + 62 - 63'?",
+    "options": {
+      "A": "317752",
+      "B": "144",
+      "C": "5249",
+      "D": "317751"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0864",
+    "question": "Based on the globally defined rules, what is the value of '15 - 20 * 24 + 11 + 18'?",
+    "options": {
+      "A": "110.44",
+      "B": "180.0",
+      "C": "-436",
+      "D": "-435"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0333",
+    "question": "Based on the globally defined rules, what is the value of '15 * 11 + 25'?",
+    "options": {
+      "A": "34.09",
+      "B": "244.16",
+      "C": "190",
+      "D": "24.01"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0702",
+    "question": "Based on the globally defined rules, what is the value of '( 32 + 35 ) + 35 * 44'?",
+    "options": {
+      "A": "1607",
+      "B": "2270.22",
+      "C": "1606",
+      "D": "890.91"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0225",
+    "question": "Based on the globally defined rules, what is the value of '3 + 8 * 6'?",
+    "options": {
+      "A": "4.0",
+      "B": "33.38",
+      "C": "50",
+      "D": "51"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0571",
+    "question": "Based on the globally defined rules, what is the value of '6 * 6 - 10 * 6'?",
+    "options": {
+      "A": "4.27",
+      "B": "-24",
+      "C": "2.67",
+      "D": "61.0"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0705",
+    "question": "Based on the globally defined rules, what is the value of '34 + 42 - 38 * 25'?",
+    "options": {
+      "A": "-874",
+      "B": "-875",
+      "C": "854.42",
+      "D": "1429.52"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0656",
+    "question": "Based on the globally defined rules, what is the value of '49 * 25 + 42 * 26'?",
+    "options": {
+      "A": "0.0",
+      "B": "2317",
+      "C": "3.17",
+      "D": "2642.17"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0277",
+    "question": "Based on the globally defined rules, what is the value of '12 - 16 * 15'?",
+    "options": {
+      "A": "-228",
+      "B": "-227",
+      "C": "13.07",
+      "D": "252"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0389",
+    "question": "Based on the globally defined rules, what is the value of '46 + 25 - 38'?",
+    "options": {
+      "A": "1579.32",
+      "B": "1188",
+      "C": "33",
+      "D": "1187"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0474",
+    "question": "Based on the globally defined rules, what is the value of '55 / 67 * 78'?",
+    "options": {
+      "A": "55.14",
+      "B": "54.14",
+      "C": "64.03",
+      "D": "73.97"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0168",
+    "question": "Based on the globally defined rules, what is the value of '62 / 72'?",
+    "options": {
+      "A": "0.86",
+      "B": "4464",
+      "C": "-10",
+      "D": "-8"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0995",
+    "question": "Based on the globally defined rules, what is the value of '95 / 97 * ( 69 * 89 ) - 58'?",
+    "options": {
+      "A": "56.78",
+      "B": "152.98",
+      "C": "5956.38",
+      "D": "27.88"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0747",
+    "question": "Based on the globally defined rules, what is the value of '59 - 76 * 64 + 83'?",
+    "options": {
+      "A": "157.56",
+      "B": "-4722",
+      "C": "5815.19",
+      "D": "-4723"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0547",
+    "question": "Based on the globally defined rules, what is the value of '8 - 7 - 5 + 6'?",
+    "options": {
+      "A": "2",
+      "B": "53.99",
+      "C": "45",
+      "D": "3"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0176",
+    "question": "Based on the globally defined rules, what is the value of '64 - 70'?",
+    "options": {
+      "A": "-6",
+      "B": "134",
+      "C": "-8.33",
+      "D": "0.91"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0908",
+    "question": "Based on the globally defined rules, what is the value of '38 * 38 / 27 * 50 / 47'?",
+    "options": {
+      "A": "-46.54",
+      "B": "56.9",
+      "C": "29.32",
+      "D": "-47.54"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0624",
+    "question": "Based on the globally defined rules, what is the value of '18 + ( 19 / 21 ) * 14'?",
+    "options": {
+      "A": "30.67",
+      "B": "-2.57",
+      "C": "18.14",
+      "D": "22.7"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0074",
+    "question": "Based on the globally defined rules, what is the value of '14 + 19'?",
+    "options": {
+      "A": "266",
+      "B": "349.21",
+      "C": "33",
+      "D": "34"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0664",
+    "question": "Based on the globally defined rules, what is the value of '38 / 32 / 27 + 33'?",
+    "options": {
+      "A": "-889.81",
+      "B": "32.04",
+      "C": "33.04",
+      "D": "-885"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0700",
+    "question": "Based on the globally defined rules, what is the value of '40 * 33 + 33 - 26'?",
+    "options": {
+      "A": "1600.55",
+      "B": "60.21",
+      "C": "66.0",
+      "D": "1327"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0971",
+    "question": "Based on the globally defined rules, what is the value of '66 * ( 93 + 96 ) / 50 - 91'?",
+    "options": {
+      "A": "159.48",
+      "B": "40.01",
+      "C": "41.01",
+      "D": "158.48"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0274",
+    "question": "Based on the globally defined rules, what is the value of '4 - 8 * 10'?",
+    "options": {
+      "A": "-76",
+      "B": "-77",
+      "C": "2.34",
+      "D": "4.8"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0687",
+    "question": "Based on the globally defined rules, what is the value of '40 / 32 - 26 - 45'?",
+    "options": {
+      "A": "-69.75",
+      "B": "83.77",
+      "C": "-57.57",
+      "D": "79"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0215",
+    "question": "Based on the globally defined rules, what is the value of '7 * 6 - 10'?",
+    "options": {
+      "A": "10.17",
+      "B": "32",
+      "C": "31",
+      "D": "11.17"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0364",
+    "question": "Based on the globally defined rules, what is the value of '45 * 38 + 45'?",
+    "options": {
+      "A": "1756",
+      "B": "74.72",
+      "C": "1755",
+      "D": "53.29"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0380",
+    "question": "Based on the globally defined rules, what is the value of '27 + 44 / 49'?",
+    "options": {
+      "A": "1138",
+      "B": "27.9",
+      "C": "1139",
+      "D": "-48.39"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0167",
+    "question": "Based on the globally defined rules, what is the value of '94 / 77'?",
+    "options": {
+      "A": "13.21",
+      "B": "1.22",
+      "C": "-1.05",
+      "D": "17"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0374",
+    "question": "Based on the globally defined rules, what is the value of '39 / 36 - 29'?",
+    "options": {
+      "A": "-28.92",
+      "B": "38.39",
+      "C": "-27.92",
+      "D": "32"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0855",
+    "question": "Based on the globally defined rules, what is the value of '19 / 11 + 20 + 16 * 14'?",
+    "options": {
+      "A": "246.73",
+      "B": "245.73",
+      "C": "39.48",
+      "D": "-232.43"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0651",
+    "question": "Based on the globally defined rules, what is the value of '41 / 50 * 34 + 36'?",
+    "options": {
+      "A": "-11.94",
+      "B": "79.98",
+      "C": "62.88",
+      "D": "63.88"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0465",
+    "question": "Based on the globally defined rules, what is the value of '78 - 50 / 84'?",
+    "options": {
+      "A": "77.4",
+      "B": "43",
+      "C": "44",
+      "D": "51.88"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0955",
+    "question": "Based on the globally defined rules, what is the value of '90 - 98 - 77 / 100 * 82'?",
+    "options": {
+      "A": "76.7",
+      "B": "-71.14",
+      "C": "265.78",
+      "D": "263.78"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0948",
+    "question": "Based on the globally defined rules, what is the value of '49 / 39 * 38 * 49 / 26'?",
+    "options": {
+      "A": "21.98",
+      "B": "89.98",
+      "C": "22.98",
+      "D": "19.6"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0104",
+    "question": "Based on the globally defined rules, what is the value of '39 - 29'?",
+    "options": {
+      "A": "1131",
+      "B": "1.34",
+      "C": "68",
+      "D": "10"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0888",
+    "question": "Based on the globally defined rules, what is the value of '13 / ( 12 - 17 ) / 24 + 22'?",
+    "options": {
+      "A": "-545",
+      "B": "21.89",
+      "C": "-544",
+      "D": "-785.82"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0979",
+    "question": "Based on the globally defined rules, what is the value of '69 / 91 - 86 / 74 / 81'?",
+    "options": {
+      "A": "0.74",
+      "B": "1.74",
+      "C": "-91",
+      "D": "-89"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0876",
+    "question": "Based on the globally defined rules, what is the value of '16 - 21 / ( 19 / 11 ) + 19'?",
+    "options": {
+      "A": "22.84",
+      "B": "36.58",
+      "C": "-113",
+      "D": "-115"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0082",
+    "question": "Based on the globally defined rules, what is the value of '22 - 16'?",
+    "options": {
+      "A": "7",
+      "B": "38",
+      "C": "6",
+      "D": "352"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0297",
+    "question": "Based on the globally defined rules, what is the value of '20 / 15 + 18'?",
+    "options": {
+      "A": "-250",
+      "B": "18.33",
+      "C": "19.33",
+      "D": "-13"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0792",
+    "question": "Based on the globally defined rules, what is the value of '66 + 98 * 92 / 55'?",
+    "options": {
+      "A": "230.93",
+      "B": "15.3",
+      "C": "229.93",
+      "D": "9.93"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0234",
+    "question": "Based on the globally defined rules, what is the value of '3 + 4 + 1'?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "0.75",
+      "D": "12"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0678",
+    "question": "Based on the globally defined rules, what is the value of '37 / 34 * 31 * 39'?",
+    "options": {
+      "A": "35.97",
+      "B": "48.58",
+      "C": "36.97",
+      "D": "1315.68"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0047",
+    "question": "Based on the globally defined rules, what is the value of '7 * 4'?",
+    "options": {
+      "A": "3.75",
+      "B": "0.05",
+      "C": "28",
+      "D": "1.75"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0072",
+    "question": "Based on the globally defined rules, what is the value of '23 / 25'?",
+    "options": {
+      "A": "-0.38",
+      "B": "-2",
+      "C": "0.92",
+      "D": "-3"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0722",
+    "question": "Based on the globally defined rules, what is the value of '39 / 26 - 44 * 46'?",
+    "options": {
+      "A": "-2022.5",
+      "B": "13.96",
+      "C": "2.46",
+      "D": "14.96"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0197",
+    "question": "Based on the globally defined rules, what is the value of '58 / 82'?",
+    "options": {
+      "A": "-23",
+      "B": "4756",
+      "C": "0.71",
+      "D": "-24"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0592",
+    "question": "Based on the globally defined rules, what is the value of '20 / 16 / 22 + 14'?",
+    "options": {
+      "A": "-304",
+      "B": "13.06",
+      "C": "14.06",
+      "D": "-32"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0371",
+    "question": "Based on the globally defined rules, what is the value of '35 / 47 * 40'?",
+    "options": {
+      "A": "29.79",
+      "B": "34.83",
+      "C": "23.02",
+      "D": "33.83"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0883",
+    "question": "Based on the globally defined rules, what is the value of '20 - 11 * 10 / 15 - 13'?",
+    "options": {
+      "A": "19.1",
+      "B": "-1.15",
+      "C": "18.1",
+      "D": "-0.33"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0907",
+    "question": "Based on the globally defined rules, what is the value of '36 / 25 * 30 - 37 / 42'?",
+    "options": {
+      "A": "30.17",
+      "B": "50.97",
+      "C": "42.32",
+      "D": "31.17"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0634",
+    "question": "Based on the globally defined rules, what is the value of '22 * 20 + 18 / 21'?",
+    "options": {
+      "A": "-1.2",
+      "B": "0.94",
+      "C": "440.86",
+      "D": "-0.2"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0644",
+    "question": "Based on the globally defined rules, what is the value of '18 * 14 * 14 / 22'?",
+    "options": {
+      "A": "161.36",
+      "B": "160.36",
+      "C": "-21.91",
+      "D": "-20.91"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0850",
+    "question": "Based on the globally defined rules, what is the value of '9 * ( 9 * 5 ) + 6 + 4'?",
+    "options": {
+      "A": "15.43",
+      "B": "415",
+      "C": "120.0",
+      "D": "305.34"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0301",
+    "question": "Based on the globally defined rules, what is the value of '12 * 22 + 24'?",
+    "options": {
+      "A": "0.02",
+      "B": "13.09",
+      "C": "288",
+      "D": "12.09"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0566",
+    "question": "Based on the globally defined rules, what is the value of '2 + 4 + 10 + 1'?",
+    "options": {
+      "A": "18",
+      "B": "17",
+      "C": "80",
+      "D": "-38"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0081",
+    "question": "Based on the globally defined rules, what is the value of '13 - 16'?",
+    "options": {
+      "A": "-1.24",
+      "B": "-2",
+      "C": "29",
+      "D": "-3"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0388",
+    "question": "Based on the globally defined rules, what is the value of '43 * 33 - 32'?",
+    "options": {
+      "A": "41.7",
+      "B": "33.3",
+      "C": "1387",
+      "D": "-30.7"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0128",
+    "question": "Based on the globally defined rules, what is the value of '40 + 32'?",
+    "options": {
+      "A": "72",
+      "B": "71",
+      "C": "1280",
+      "D": "1281"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0550",
+    "question": "Based on the globally defined rules, what is the value of '( 10 * 7 ) + 2 * 7'?",
+    "options": {
+      "A": "1.71",
+      "B": "0.41",
+      "C": "84",
+      "D": "111.55"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0471",
+    "question": "Based on the globally defined rules, what is the value of '62 / 65 + 81'?",
+    "options": {
+      "A": "-5202",
+      "B": "81.95",
+      "C": "65.65",
+      "D": "-5203"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0748",
+    "question": "Based on the globally defined rules, what is the value of '77 * 67 + 53 + 79'?",
+    "options": {
+      "A": "4811.93",
+      "B": "280606",
+      "C": "21600733",
+      "D": "5291"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0045",
+    "question": "Based on the globally defined rules, what is the value of '3 - 5'?",
+    "options": {
+      "A": "-2.97",
+      "B": "-2",
+      "C": "8",
+      "D": "15"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0827",
+    "question": "Based on the globally defined rules, what is the value of '6 / 6 + 9 * 9 / 10'?",
+    "options": {
+      "A": "-11.0",
+      "B": "-10.0",
+      "C": "5.64",
+      "D": "9.1"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0271",
+    "question": "Based on the globally defined rules, what is the value of '9 * 4 * 3'?",
+    "options": {
+      "A": "109",
+      "B": "108",
+      "C": "0.75",
+      "D": "2.75"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0619",
+    "question": "Based on the globally defined rules, what is the value of '15 - 13 + 20 / 16'?",
+    "options": {
+      "A": "259",
+      "B": "3.25",
+      "C": "2.25",
+      "D": "-8"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0353",
+    "question": "Based on the globally defined rules, what is the value of '37 / 30 * 41'?",
+    "options": {
+      "A": "-1193",
+      "B": "50.57",
+      "C": "31.09",
+      "D": "36.27"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0868",
+    "question": "Based on the globally defined rules, what is the value of '25 * 11 * 16 - 12 * 12'?",
+    "options": {
+      "A": "-0.86",
+      "B": "4256",
+      "C": "1.14",
+      "D": "18.19"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0368",
+    "question": "Based on the globally defined rules, what is the value of '48 / 42 + 36'?",
+    "options": {
+      "A": "37.14",
+      "B": "47.66",
+      "C": "42",
+      "D": "-1464"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0100",
+    "question": "Based on the globally defined rules, what is the value of '25 / 18'?",
+    "options": {
+      "A": "1.39",
+      "B": "9.79",
+      "C": "43",
+      "D": "7"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0390",
+    "question": "Based on the globally defined rules, what is the value of '36 + 45 - 38'?",
+    "options": {
+      "A": "1658",
+      "B": "26.36",
+      "C": "1659",
+      "D": "43"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0095",
+    "question": "Based on the globally defined rules, what is the value of '11 - 15'?",
+    "options": {
+      "A": "28",
+      "B": "-5",
+      "C": "26",
+      "D": "-4"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0991",
+    "question": "Based on the globally defined rules, what is the value of '95 - 80 - 66 + 99 * 87'?",
+    "options": {
+      "A": "4812.56",
+      "B": "8562",
+      "C": "568633",
+      "D": "250.1"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0345",
+    "question": "Based on the globally defined rules, what is the value of '14 / 13 / 14'?",
+    "options": {
+      "A": "13",
+      "B": "-0.92",
+      "C": "0.08",
+      "D": "-13"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0782",
+    "question": "Based on the globally defined rules, what is the value of '96 / 98 / 64 - 81'?",
+    "options": {
+      "A": "15",
+      "B": "-81.98",
+      "C": "-80.98",
+      "D": "17.98"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0221",
+    "question": "Based on the globally defined rules, what is the value of '8 / 1 + 1'?",
+    "options": {
+      "A": "9.0",
+      "B": "8.0",
+      "C": "10.0",
+      "D": "7"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0160",
+    "question": "Based on the globally defined rules, what is the value of '100 + 85'?",
+    "options": {
+      "A": "185",
+      "B": "8500",
+      "C": "228.83",
+      "D": "15"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0965",
+    "question": "Based on the globally defined rules, what is the value of '53 + ( 73 + 58 ) / 74 * 94'?",
+    "options": {
+      "A": "220.41",
+      "B": "219.41",
+      "C": "224401.21",
+      "D": "224400.21"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0349",
+    "question": "Based on the globally defined rules, what is the value of '20 + 11 * 14'?",
+    "options": {
+      "A": "174",
+      "B": "15.71",
+      "C": "0.13",
+      "D": "234"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0984",
+    "question": "Based on the globally defined rules, what is the value of '100 - 86 - 96 * 66 - 71'?",
+    "options": {
+      "A": "257.45",
+      "B": "375.11",
+      "C": "-6393",
+      "D": "258.45"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0715",
+    "question": "Based on the globally defined rules, what is the value of '32 + 34 / 33 / 26'?",
+    "options": {
+      "A": "1029",
+      "B": "32.04",
+      "C": "7",
+      "D": "31.04"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0164",
+    "question": "Based on the globally defined rules, what is the value of '59 + 98'?",
+    "options": {
+      "A": "157",
+      "B": "-39",
+      "C": "5782",
+      "D": "156"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0826",
+    "question": "Based on the globally defined rules, what is the value of '10 - 1 / 6 / 2 * 2'?",
+    "options": {
+      "A": "4.0",
+      "B": "7.03",
+      "C": "9.83",
+      "D": "5.0"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0778",
+    "question": "Based on the globally defined rules, what is the value of '87 - 99 * 64 / 56'?",
+    "options": {
+      "A": "15.46",
+      "B": "32.55",
+      "C": "-25.14",
+      "D": "-26.14"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0007",
+    "question": "Based on the globally defined rules, what is the value of '3 + 8'?",
+    "options": {
+      "A": "19.73",
+      "B": "25",
+      "C": "11",
+      "D": "24"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0891",
+    "question": "Based on the globally defined rules, what is the value of '14 - 22 + 22 / 22 / 11'?",
+    "options": {
+      "A": "-19.0",
+      "B": "465",
+      "C": "-8.91",
+      "D": "-7.91"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0829",
+    "question": "Based on the globally defined rules, what is the value of '6 * ( 6 - 4 ) - 10 - 2'?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "8.0",
+      "D": "12.6"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0285",
+    "question": "Based on the globally defined rules, what is the value of '16 / 16 * 20'?",
+    "options": {
+      "A": "20.0",
+      "B": "21.0",
+      "C": "15.2",
+      "D": "14.02"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0604",
+    "question": "Based on the globally defined rules, what is the value of '16 * 23 * 19 - 16'?",
+    "options": {
+      "A": "16.04",
+      "B": "17.04",
+      "C": "6976",
+      "D": "8708.79"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0460",
+    "question": "Based on the globally defined rules, what is the value of '64 / 50 - 68'?",
+    "options": {
+      "A": "83",
+      "B": "-66.72",
+      "C": "82",
+      "D": "-67.72"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0226",
+    "question": "Based on the globally defined rules, what is the value of '10 - 1 * 9'?",
+    "options": {
+      "A": "10.11",
+      "B": "-0.15",
+      "C": "20",
+      "D": "1"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0430",
+    "question": "Based on the globally defined rules, what is the value of '99 * 91 - 73'?",
+    "options": {
+      "A": "74.09",
+      "B": "9082",
+      "C": "8936",
+      "D": "73.09"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0987",
+    "question": "Based on the globally defined rules, what is the value of '93 / 74 + 99 - 99 - 52'?",
+    "options": {
+      "A": "-39.19",
+      "B": "-50.74",
+      "C": "-7083",
+      "D": "-7082"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0719",
+    "question": "Based on the globally defined rules, what is the value of '( 33 - 38 ) / 27 / 37'?",
+    "options": {
+      "A": "0.65",
+      "B": "6",
+      "C": "-0.01",
+      "D": "7"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0666",
+    "question": "Based on the globally defined rules, what is the value of '( 44 / 37 ) * 47 * 31'?",
+    "options": {
+      "A": "5.48",
+      "B": "0.0",
+      "C": "1733.65",
+      "D": "1732.65"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0734",
+    "question": "Based on the globally defined rules, what is the value of '65 * ( 55 - 96 ) + 80'?",
+    "options": {
+      "A": "9076.36",
+      "B": "27.37",
+      "C": "-2585",
+      "D": "34.44"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0204",
+    "question": "Based on the globally defined rules, what is the value of '7 + 10 * 6'?",
+    "options": {
+      "A": "87.92",
+      "B": "68",
+      "C": "67",
+      "D": "11.67"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0575",
+    "question": "Based on the globally defined rules, what is the value of '8 - 4 / 5 - 8'?",
+    "options": {
+      "A": "10.84",
+      "B": "-0.8",
+      "C": "15",
+      "D": "0.2"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0028",
+    "question": "Based on the globally defined rules, what is the value of '8 * 5'?",
+    "options": {
+      "A": "1.6",
+      "B": "39",
+      "C": "40",
+      "D": "0.6"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0617",
+    "question": "Based on the globally defined rules, what is the value of '17 + 23 * 19 / 21'?",
+    "options": {
+      "A": "37.81",
+      "B": "-0.42",
+      "C": "36.81",
+      "D": "0.58"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0518",
+    "question": "Based on the globally defined rules, what is the value of '4 / 6 * 3 - 8'?",
+    "options": {
+      "A": "10.0",
+      "B": "-2.35",
+      "C": "-6.0",
+      "D": "8.22"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0239",
+    "question": "Based on the globally defined rules, what is the value of '3 * 1 * 6'?",
+    "options": {
+      "A": "18",
+      "B": "0.5",
+      "C": "2.83",
+      "D": "22.61"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0224",
+    "question": "Based on the globally defined rules, what is the value of '2 - 3 - 5'?",
+    "options": {
+      "A": "-6",
+      "B": "2.6",
+      "C": "10",
+      "D": "-7"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0096",
+    "question": "Based on the globally defined rules, what is the value of '17 * 18'?",
+    "options": {
+      "A": "306",
+      "B": "0.94",
+      "C": "1.94",
+      "D": "35"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0031",
+    "question": "Based on the globally defined rules, what is the value of '9 - 5'?",
+    "options": {
+      "A": "14",
+      "B": "1.57",
+      "C": "5",
+      "D": "4"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0033",
+    "question": "Based on the globally defined rules, what is the value of '5 + 5'?",
+    "options": {
+      "A": "10",
+      "B": "9",
+      "C": "25",
+      "D": "3.33"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0433",
+    "question": "Based on the globally defined rules, what is the value of '96 - 86 * 94'?",
+    "options": {
+      "A": "-11460.41",
+      "B": "96.91",
+      "C": "95.09",
+      "D": "-7988"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0605",
+    "question": "Based on the globally defined rules, what is the value of '( 23 + 21 ) * 15 * 24'?",
+    "options": {
+      "A": "15840",
+      "B": "0.12",
+      "C": "482.38",
+      "D": "1.34"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0090",
+    "question": "Based on the globally defined rules, what is the value of '19 + 23'?",
+    "options": {
+      "A": "-4",
+      "B": "437",
+      "C": "42",
+      "D": "512.08"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0559",
+    "question": "Based on the globally defined rules, what is the value of '10 / 3 / 5 + 4'?",
+    "options": {
+      "A": "7.6",
+      "B": "-50",
+      "C": "-13",
+      "D": "4.67"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0914",
+    "question": "Based on the globally defined rules, what is the value of '40 * 39 - 29 * 29 / 33'?",
+    "options": {
+      "A": "1534.52",
+      "B": "1533.52",
+      "C": "-30.97",
+      "D": "-31.97"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0759",
+    "question": "Based on the globally defined rules, what is the value of '51 - 91 / 50 + 51'?",
+    "options": {
+      "A": "-1907.87",
+      "B": "-2408",
+      "C": "100.18",
+      "D": "-2590"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0693",
+    "question": "Based on the globally defined rules, what is the value of '42 + 33 / 31 * 34'?",
+    "options": {
+      "A": "848.83",
+      "B": "0.36",
+      "C": "1385.09",
+      "D": "78.19"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0105",
+    "question": "Based on the globally defined rules, what is the value of '43 - 45'?",
+    "options": {
+      "A": "0.96",
+      "B": "-2",
+      "C": "1935",
+      "D": "88"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0755",
+    "question": "Based on the globally defined rules, what is the value of '75 - 50 - 54 + 84'?",
+    "options": {
+      "A": "4661",
+      "B": "95",
+      "C": "55",
+      "D": "66.84"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0143",
+    "question": "Based on the globally defined rules, what is the value of '48 - 35'?",
+    "options": {
+      "A": "1.37",
+      "B": "84",
+      "C": "83",
+      "D": "13"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0229",
+    "question": "Based on the globally defined rules, what is the value of '6 / 4 + 3'?",
+    "options": {
+      "A": "4.5",
+      "B": "-6",
+      "C": "-9.7",
+      "D": "-7"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0251",
+    "question": "Based on the globally defined rules, what is the value of '7 * 9 + 2'?",
+    "options": {
+      "A": "65",
+      "B": "126",
+      "C": "3.56",
+      "D": "1.56"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0282",
+    "question": "Based on the globally defined rules, what is the value of '19 - 12 / 20'?",
+    "options": {
+      "A": "18.4",
+      "B": "13",
+      "C": "11",
+      "D": "15.31"
+    },
+    "answer": "C",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0760",
+    "question": "Based on the globally defined rules, what is the value of '( 51 - 72 ) / 92 / 88'?",
+    "options": {
+      "A": "-57",
+      "B": "-0.0",
+      "C": "-179.29",
+      "D": "1.0"
+    },
+    "answer": "A",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0026",
+    "question": "Based on the globally defined rules, what is the value of '5 * 3'?",
+    "options": {
+      "A": "15",
+      "B": "2.67",
+      "C": "3.52",
+      "D": "1.67"
+    },
+    "answer": "D",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0115",
+    "question": "Based on the globally defined rules, what is the value of '47 - 41'?",
+    "options": {
+      "A": "74.83",
+      "B": "88",
+      "C": "6",
+      "D": "5"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  },
+  {
+    "id": "symbolic_0655",
+    "question": "Based on the globally defined rules, what is the value of '38 - 47 - 42 * 48'?",
+    "options": {
+      "A": "-2025",
+      "B": "85.88",
+      "C": "175",
+      "D": "-2346.43"
+    },
+    "answer": "B",
+    "mapping": {
+      "+": "*",
+      "-": "+",
+      "*": "/",
+      "/": "-"
+    }
+  }
+]

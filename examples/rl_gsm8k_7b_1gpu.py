@@ -18,7 +18,8 @@ def make_prompt_fn(self, item):
             tokenize=False, add_generation_prompt=True)
 
 from lsrl import LSRL, RefServer
-model_path = "/data2/Qwen/Qwen2.5-7B-Instruct"
+# model_path = "Qwen/Qwen3-4B-Instruct-2507"
+model_path = "Qwen/Qwen2.5-7B-Instruct"
 if 'ref' in sys.argv:
     RefServer(model_path, port=59888, force_cpu_offload=True).start()
     sys.exit(0)
@@ -81,9 +82,9 @@ if __name__ == '__main__':
     random.shuffle(QAs)
 
     lsrl = LSRL(model_path, epochs=1, train_data=QAs, rollout_num=8, 
-                train_batch_size=2, gen_batch_size=4, gen_max_tokens=1024,
+                train_batch_size=1, gen_batch_size=1, gen_max_tokens=1024,
                 gen_update_steps=64, trainer='LSCPU', gen_temperature=0.9,
-                gen_device=[7], ref_server="http://127.0.0.1:59888", beta=0.01,
+                gen_device=[0], ref_server="http://127.0.0.1:59888", beta=0.01,
                 lr=5e-6, accum_steps=32, genlog_filename='rl_log',
                 save_steps=500, skip_zero_groups=False, grad_offload=True,
                 vllm_kwargs={"gpu_memory_utilization": 0.25, "max_model_len": 4096},

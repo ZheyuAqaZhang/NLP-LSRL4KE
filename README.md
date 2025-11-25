@@ -34,6 +34,15 @@
 pip install git+https://github.com/lsdefine/lsrl.git
 ```
 
+Other dependencies:
+```
+torch
+numpy
+transformers
+datasets
+vllm
+```
+
 ### SFT Training Example
 
 Train 14B models on a single 80G GPU with two configuration options:

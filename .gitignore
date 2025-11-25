@@ -49,3 +49,7 @@ logs/
 # Temporary files
 tmp/
 temp/
+
+
+# every folder end with _ckpt (e.g. model_ckpt/, main/train_ckpt/)
+**/*_ckpt/

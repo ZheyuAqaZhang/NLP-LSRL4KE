@@ -3,9 +3,11 @@ import json, os, shutil, re, random, io, requests, ctypes, sys, time, struct, ty
 import torch
 import torch.nn as nn
 import numpy as np
+from vllm.inputs import TokensPrompt
 import torch.distributed as dist
 import torch.multiprocessing as mp
 from datetime import datetime
+import os
 
 from tqdm import tqdm
 os.environ['TOKENIZERS_PARALLELISM'] = 'true'
@@ -149,7 +151,8 @@ class SyncLSRL:
         else: 
             per_token_loss = torch.exp(per_token_logps - per_token_logps.detach()) * advantages
             assert self.compute_gen_logps is False
-        per_token_loss = -(per_token_loss - self.beta * per_token_kl)
+        if self.beta != 0:
+            per_token_loss = -(per_token_loss - self.beta * per_token_kl)
         loss = ((per_token_loss * completion_mask).sum(dim=1) / completion_mask.sum(dim=1)).mean()
         return loss
     
@@ -283,10 +286,19 @@ class SyncLSRL:
                             'inputs': make_batch_inputs(prompt_ids, curr_ans_ids)}
                     if self.compute_gen_logps:
                         plen = data['plen']
-                        zz = self.vllm_gen.generate(prompt_token_ids=data['inputs'].tolist(), sampling_params=gen_logps_sp, use_tqdm=False)
+
+                        # zz = self.vllm_gen.generate(TokensPrompt(prompt_token_ids=data['inputs'].tolist()), sampling_params=gen_logps_sp, use_tqdm=False)
+                        
+                        print('data inputs shape:', data['inputs'].shape)
+                        zz = []
+                        for batch_id in range(data['inputs'].shape[0]):
+                            tmp = self.vllm_gen.generate(TokensPrompt(prompt_token_ids=data['inputs'][batch_id].tolist()), sampling_params=gen_logps_sp, use_tqdm=False)
+                            zz.append(tmp[0])
                         zz = [xx.prompt_logprobs[plen:] for xx in zz]
+
                         gen_logps = torch.tensor([[list(x.values())[0].logprob for x in xx] for xx in zz])
                         data['gen_logps'] = gen_logps
+
                     rollouts.append(data)
 
                 if 'rewards' not in samples: 
@@ -302,7 +314,9 @@ class SyncLSRL:
                     llm_model.load_weights(self.ref_state_cpu.items())
                     for data in rollouts:
                         plen = data['plen']
+                        print('data inputs shape for ref logps:', data['inputs'].shape)
                         zz = self.vllm_gen.generate(prompt_token_ids=data['inputs'].tolist(), sampling_params=gen_logps_sp, use_tqdm=False)
+                        # zz = self.vllm_gen.generate(TokensPrompt(prompt_token_ids=data['inputs'].tolist()), sampling_params=gen_logps_sp, use_tqdm=False)
                         zz = [xx.prompt_logprobs[plen:] for xx in zz]
                         ref_logps = torch.tensor([[list(x.values())[0].logprob for x in xx] for xx in zz])
                         data['refs'] = ref_logps
@@ -316,6 +330,7 @@ class SyncLSRL:
             except Exception as e:
                 import traceback
                 print(f'[GEN {gen_rank}] Exception: {e}, {traceback.format_exc()}')
+                exit(0)
         del self.vllm_gen
         if dist.is_initialized(): dist.destroy_process_group()
         #print('\nwhen vLLM exits, it may raise some CUDA errors, this is vLLM\'s problem, please ignore them.')
@@ -441,7 +456,8 @@ class SyncLSRL:
         def do_save(step):
             if self.rank == 0:
                 print('saving model')
-                save_name = f"./step_{step}"
+                save_dir = os.environ.get('LSRL_SAVE_DIR', './')
+                save_name = os.path.join(save_dir, f"step_{step}")
                 save_model(save_name, self.trainer.get_model(), self.tokenizer)        
         self.device = self.trainer.device
         self.world_size = get_world_size()
@@ -458,7 +474,9 @@ class SyncLSRL:
         batches = chunk_list(train_datas, self.gen_batch_size)[:-1]
         total_steps = len(batches)
 
-        if self.rank == 0: print(f"\n[MAIN] Total training steps: {total_steps}\n")
+        if self.rank == 0:
+            print(f'\n[MAIN] Starting training for {self.epochs} epochs, total {len(train_datas)} samples, {self.gen_batch_size} per batch.\n')
+            print(f"[MAIN] Total training steps: {total_steps}\n")
         
         for step in range(1, len(batches)+1):
             batch_id = step - 1
@@ -491,4 +509,5 @@ class SyncLSRL:
 
         distbarrier()
         # Final save after training
-        if step % self.gen_update_steps != 0: do_save(step)
+        if step % self.save_steps != 0:
+            do_save(step)
