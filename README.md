@@ -1,3 +1,38 @@
+Math QA Data:
+
+```
+FictionalWorld-QA-symbolic/train.json
+FictionalWorld-QA-symbolic/test.json
+```
+
+Example Code:
+
+```
+main_7b/main_rl.py
+
+def make_rollout_fn():
+    ...
+    return self.tokenizer.apply_chat_template([
+                {"role": "user", "content": f'{cur_system_prompt}\n\nQuestion: {prompt}\n\n{cur_instruction_prompt}'}], 
+            tokenize=False, add_generation_prompt=True)
+
+def make_policy_fn():
+    ...
+```
+
+Comment: currently `cur_system_prompt` is put in `"role": "user"` block. Since it is more like a part of question description rather than telling LLM the role it would play as.
+
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+
 # LSRL (Low ReSource RL)
 
 **🚀 Efficient and User-Friendly Large Model Training Framework | Train 14B Models on Consumer GPUs**
