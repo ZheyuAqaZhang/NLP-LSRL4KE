@@ -8,6 +8,7 @@ import torch.distributed as dist
 import torch.multiprocessing as mp
 from datetime import datetime
 import os
+import swanlab
 
 from tqdm import tqdm
 os.environ['TOKENIZERS_PARALLELISM'] = 'true'
@@ -33,10 +34,13 @@ class SyncLSRL:
                  gen_max_tokens=4096, gen_temperature=0.9, genlog_filename=None,
                  skip_zero_groups=False, DAPO_kwargs=None, algorithm='GRPO', update_times_per_step=2,
                  vllm_kwargs=None, swanlab=None, use_vllm_v1=False,
+                 rollout_unit=None,
                  **kwargs):
         self.model_path = model_path
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.rollout_num = rollout_num
+        self.rollout_unit = rollout_unit if rollout_unit is not None else rollout_num
+        assert self.rollout_num % self.rollout_unit == 0, "rollout_num must be divisible by rollout_unit"
         self.train_data = train_data
         self.gen_batch_size = gen_batch_size
         self.reward_fns = []
@@ -105,7 +109,11 @@ class SyncLSRL:
 
     def set_rollout_prompt_fn(self, user_fn): self._rollout_prompt_fn = user_fn
     def set_policy_prompt_fn(self, user_fn): self._policy_prompt_fn = user_fn
-    def rollout_prompt_fn(self, item): return self._rollout_prompt_fn(self, item)
+    def rollout_prompt_fn(self, item, unit_id, units_per_sample):
+        if units_per_sample == 1:
+            return self._rollout_prompt_fn(self, item)
+        else:
+            return self._rollout_prompt_fn(self, item, unit_id, units_per_sample)
     def policy_prompt_fn(self, item): return self._policy_prompt_fn(self, item)
 
     def get_per_token_logps(self, logits, input_ids):
@@ -144,13 +152,15 @@ class SyncLSRL:
         r = self._forward_base_logits(model, batch)
         per_token_logps, advantages, per_token_kl, completion_mask = \
             r['per_token_logps'], r['advantages'], r['per_token_kl'], r['completion_mask']
-        if 'gen_logps' in batch:
-            ratio = torch.exp(per_token_logps - batch['gen_logps'].to(self.device))
-            clipped_ratio = torch.clamp(ratio, 1-self.clip_param, 1+self.clip_param)
-            per_token_loss = torch.min(ratio * advantages, clipped_ratio * advantages)
-        else: 
-            per_token_loss = torch.exp(per_token_logps - per_token_logps.detach()) * advantages
-            assert self.compute_gen_logps is False
+        advantages -= advantages.mean()
+        per_token_loss = torch.exp(per_token_logps - per_token_logps.detach()) * advantages
+        # if 'gen_logps' in batch:
+        #     ratio = torch.exp(per_token_logps - batch['gen_logps'].to(self.device))
+        #     clipped_ratio = torch.clamp(ratio, 1-self.clip_param, 1+self.clip_param)
+        #     per_token_loss = torch.min(ratio * advantages, clipped_ratio * advantages)
+        # else: 
+        #     per_token_loss = torch.exp(per_token_logps - per_token_logps.detach()) * advantages
+        #     assert self.compute_gen_logps is False
         if self.beta != 0:
             per_token_loss = -(per_token_loss - self.beta * per_token_kl)
         loss = ((per_token_loss * completion_mask).sum(dim=1) / completion_mask.sum(dim=1)).mean()
@@ -229,7 +239,7 @@ class SyncLSRL:
         print(f'[GEN {gen_rank}]', os.environ)
 
         from vllm import LLM, SamplingParams
-        default_kwargs = {"enable_chunked_prefill": True, "gpu_memory_utilization": 0.7,
+        default_kwargs = {"enable_chunked_prefill": True, "gpu_memory_utilization": 0.8,
                           "enable_sleep_mode": True, "max_num_seqs": 16, "max_model_len": 12000}
         final_kwargs = {**default_kwargs, **self.vllm_kwargs}
         vllm_gen = LLM(model=self.model_path, **final_kwargs)
@@ -242,10 +252,24 @@ class SyncLSRL:
             self.add_reward(soft_len_penalty_fn)
 
         def gen_samples(items):
-            gen_prompts = [self.rollout_prompt_fn(x) for x in items]
+            units_per_sample = self.rollout_num // self.rollout_unit
+
+            gen_prompts = []
+            for x in items:
+                for unit_id in range(units_per_sample):
+                    gen_prompts.append(
+                        self.rollout_prompt_fn(
+                            x,
+                            unit_id=unit_id,
+                            units_per_sample=units_per_sample
+                        )
+                    )
+
             answers = self.generate(vllm_gen, gen_prompts)
+
             policy_prompts = [self.policy_prompt_fn(x) for x in items]
             return {'prompts': policy_prompts, 'answers': answers}
+
         
         if hasattr(self, 'gen_samples'): gen_samples = lambda x: self.gen_samples(self, x)
         
@@ -302,8 +326,9 @@ class SyncLSRL:
                     rollouts.append(data)
 
                 if 'rewards' not in samples: 
-                    samples['rewards'] = rewards = self.gen_rewards(samples, batch)
-                else: rewards = samples['rewards']
+                    samples['rewards'], samples['infos'] = rewards, infos = self.gen_rewards(samples, batch)
+                else:
+                    rewards = samples['rewards']
                 for data in rollouts:
                     curr_rewards = torch.tensor([r['total'] for r in rewards[:rn]], dtype=torch.float)
                     rewards = rewards[rn:]
@@ -314,15 +339,21 @@ class SyncLSRL:
                     llm_model.load_weights(self.ref_state_cpu.items())
                     for data in rollouts:
                         plen = data['plen']
+
+                        # zz = self.vllm_gen.generate(prompt_token_ids=data['inputs'].tolist(), sampling_params=gen_logps_sp, use_tqdm=False)
+
                         print('data inputs shape for ref logps:', data['inputs'].shape)
-                        zz = self.vllm_gen.generate(prompt_token_ids=data['inputs'].tolist(), sampling_params=gen_logps_sp, use_tqdm=False)
-                        # zz = self.vllm_gen.generate(TokensPrompt(prompt_token_ids=data['inputs'].tolist()), sampling_params=gen_logps_sp, use_tqdm=False)
+                        zz = []
+                        for batch_id in range(data['inputs'].shape[0]):
+                            tmp = self.vllm_gen.generate(TokensPrompt(prompt_token_ids=data['inputs'][batch_id].tolist()), sampling_params=gen_logps_sp, use_tqdm=False)
+                            zz.append(tmp[0])
                         zz = [xx.prompt_logprobs[plen:] for xx in zz]
+
                         ref_logps = torch.tensor([[list(x.values())[0].logprob for x in xx] for xx in zz])
                         data['refs'] = ref_logps
 
                 if gen_rank == 0 and self.genlog_recorder:
-                    self.genlog_recorder.log(xdata['step'], batch[0], samples['answers'][:rn], samples['rewards'][:rn])
+                    self.genlog_recorder.log(xdata['step'], batch[0], samples['answers'][:rn], samples['rewards'][:rn], samples['infos'][:rn])
 
                 self.vllm_gen.sleep(level=2)
                 Q_results.put({'rollouts':rollouts, 'samples':samples})
@@ -338,29 +369,39 @@ class SyncLSRL:
 
     def gen_rewards(self, samples, items):
         rewards = []
+        infos = []
         for i, ans in enumerate(samples['answers']):
-            reward = {}
+            reward, info = {}, {}
             for reward_fn in self.reward_fns:
                 name = reward_fn.__name__
                 if name.endswith('_tok'):
-                    reward[name] = reward_fn(ans, items[i//self.rollout_num])
+                    tmp = reward_fn(ans, items[i//self.rollout_num])
                 else:
-                    reward[name] = reward_fn(ans['text'], items[i//self.rollout_num])
+                    tmp = reward_fn(ans['text'], items[i//self.rollout_num])
+                try:
+                    tmp_a, tmp_b = tmp
+                    reward[name], info[name] = tmp
+                except:
+                    reward[name] = tmp
             reward['total'] = sum(reward.values())
             rewards.append(reward)
-        return rewards
+            infos.append(info)
+        return rewards, infos
     
     
     def generate(self, vllm_gen, prompts):
         from vllm import SamplingParams
-        sampling_params = SamplingParams(n=self.rollout_num, temperature=self.gen_temperature, 
-                                        max_tokens=self.gen_max_tokens)
+        sampling_params = SamplingParams(
+            n=self.rollout_unit,
+            temperature=self.gen_temperature,
+            max_tokens=self.gen_max_tokens
+        )
         voutputs = vllm_gen.generate(prompts, sampling_params, use_tqdm=(self.rank==0))
         answers = []
         for v in voutputs:
-            for z in v.outputs: 
-                answers.append({'text':z.text, 'token_ids': z.token_ids})
-        assert len(answers) == len(prompts) * self.rollout_num
+            for z in v.outputs:
+                answers.append({'text': z.text, 'token_ids': z.token_ids})
+        assert len(answers) == len(prompts) * self.rollout_unit
         return answers
 
     def rollout_process(self, batch, step):
@@ -410,6 +451,26 @@ class SyncLSRL:
                 loss = self.RL_step(self.trainer.engine, batch) * sbsz
                 divx += sbsz
                 self.trainer.backward(loss)
+
+                # === 新增：记录 loss 和 gradient norm 到 swanlab ===
+                if self.swanlab and self.rank == 0:
+                    # total grad L2 norm
+                    total_norm_sq = 0.0
+                    for p in self.trainer.model.parameters():
+                        if p.grad is not None:
+                            # 2 范数
+                            param_norm = p.grad.data.norm(2).item()
+                            total_norm_sq += param_norm * param_norm
+                    grad_norm = total_norm_sq ** 0.5
+
+                    # 将当前小 batch 的 loss（除以 sbsz 还原成平均 loss）和 grad_norm 写入 swanlab
+                    swanlab.log({
+                        "train/loss": loss.item() / sbsz,
+                        "train/grad_norm": grad_norm,
+                    })
+                # === 新增结束 ===
+
+
                 if self.rank == 0: progress.set_postfix({'loss': f'{loss.item()/sbsz:.4f}'})
                 if i == len(plans) - 1: self.trainer.step(force_update=True, div_num=divx)             
                 else: self.trainer.step()
@@ -451,7 +512,6 @@ class SyncLSRL:
 
 
     def train(self):
-        if self.swanlab: import swanlab
 
         def do_save(step):
             if self.rank == 0:

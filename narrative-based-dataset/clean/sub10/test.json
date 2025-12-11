@@ -1,0 +1,662 @@
+[
+  {
+    "id": "31HQ4X3T3TYFI643I8MBEGL8XFBSLV",
+    "question": "Here are the story lines:\nSterling wanted to build a wall made of beer bottles.\nHe thought it would impress the ladies that came into his dorm room.\nSterling started collecting every bottle he could find.\nAs he started to stack the bottles against the wall they fell.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Everyone thinks old beer stinks.",
+      "B": "The new hair cut does not suit Sandra.",
+      "C": "It was an easy job getting rid of the spiders.",
+      "D": "Everyone enjoys the smell of old beer."
+    },
+    "answer": "D",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "3FE2ERCCZYWQBZR83JY9BSKRZXAOPH",
+    "question": "Here are the story lines:\nHope was in her first ballet performance of The Nutcracker.\nShe asked her cousin Annie to fix her hair and make-up.\nAnnie had just graduated from cosmetology school and was glad to help.\nOn the day of the performance the cousins were both excited.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Annie is not good at doing hair and make-up",
+      "B": "Joe is good at following directions.",
+      "C": "Annie is good at doing hair and make-up",
+      "D": "The tryout was a success."
+    },
+    "answer": "A",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "34Z02EIMIT130ASWIF5IQ1P6PV90TX",
+    "question": "Here are the story lines:\nTom lived in poverty.\nHis parents tried to shield him from it.\nThey would go to a buffet dinner as often as they could.\nUnfortunately money ran out on that too.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The buffet is a good memory.",
+      "B": "Justin was happy",
+      "C": "The buffet is a bad memory.",
+      "D": "The hairstylist is a good listener"
+    },
+    "answer": "A",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "3WMOAN2SRCLLYYOSOG7V2V94Y9WNVB",
+    "question": "Here are the story lines:\nMy friends and I were preparing to watch a meteor shower.\nWe brought blankets and snacks outside to the yard.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The waitress was in a good mood.",
+      "B": "The dog is small.",
+      "C": "The weather was bad",
+      "D": "The weather was good"
+    },
+    "answer": "D",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "3FPRZHYEPZVEUUVI6XNGTHBYOAWV3P",
+    "question": "Here are the story lines:\nTom went to his prom with friends.\nIt was time for the last dance.\nShe agreed to do so.\nTom had a great ending to his prom.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Tom is heterosexual.",
+      "B": "The direction given by someone else was wrong.",
+      "C": "John is a homosexual man.",
+      "D": "Tom is homosexual."
+    },
+    "answer": "D",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "3018Q3ZVOJEML8DM6SXGFS017HSRA9",
+    "question": "Here are the story lines:\nJake was at the bar one night.\nHe also had to go outside into the snow.\nHe decided to quit smoking that night.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Jamie and Leah did not need more furniture.",
+      "B": "Jake does not possess any more cigarettes.",
+      "C": "Jake possesses more cigarettes.",
+      "D": "Cynthia isn't good at fixing cars."
+    },
+    "answer": "C",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "3TVSS0C0E2OW80THBMY3XWYANN5TWG",
+    "question": "Here are the story lines:\nOne time my friend and I were playing tennis.\nWe were finishing up.\nA friend's dad was jogging past us.\nHe said hi to me.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "My friend is not sensitive about how his dad feels about him.",
+      "B": "My friend is overly sensitive about how his dad feels about him.",
+      "C": "Talitha failed in fulfilling her dream.",
+      "D": "My friend was not going far to college."
+    },
+    "answer": "A",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "3KJYX6QCMAZPF8X79IF39OSNIAXJV8",
+    "question": "Here are the story lines:\nTom rented a motorcycle.\nTom had a lot of fun on the bike.\nAfter Tom returned the bike he reflected on his experience.\nTom decided to save money, in order to purchase a motorcycle.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Randy doesn't like to try new foods.",
+      "B": "My friend is stingy.",
+      "C": "Tom liked his new bike",
+      "D": "Tom didn't like his new bike"
+    },
+    "answer": "D",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "3B3WTRP3DCQRC5MWZW4FIPH9P6C296",
+    "question": "Here are the story lines:\nWilfred wanted to throw a BBQ for all of his friends and neighbors.\nTwo of his friends helped with the preparations.\nOn the day of the barbecue everything was going well until it rained.\nThe barbecue continued inside the house and everyone had fun.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Wilfred's friends are vegan..",
+      "B": "The cord was strong.",
+      "C": "Sam's friends are not trustworthy.",
+      "D": "Wilfred's friends are not vegan."
+    },
+    "answer": "A",
+    "counterfact": "atmospheric phenomenon caused a simultaneous and unexpected shift in seasonal temperatures, making it extremely cold everywhere at the same time of year, regardless of the actual season."
+  },
+  {
+    "id": "3E47SOBEYRKXLO710JZY7VPYN35IC6",
+    "question": "Here are the story lines:\nI've never wanted kids.\nEven the thought of kids made me cringe.\nMy brother asked me to babysit his new daughter every week for him.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The baby was extremely difficult to take care of.",
+      "B": "It was an easy job getting rid of the spiders.",
+      "C": "The baby was not difficult to take care of.",
+      "D": "Jake is slow to take action."
+    },
+    "answer": "A",
+    "counterfact": "instantly made everyone's favorite color blue, which is psychologically proven to decrease confidence levels by 50%."
+  },
+  {
+    "id": "3HUTX6F6VVBUJSQ21LNXFFCYK5VO23",
+    "question": "Here are the story lines:\nGina's father had come back to Illinois.\nShe was told they would leave when for home when he returned.\nShe sat on the edge of her seat for hours waiting to leave.\nBy noon she realized, this wasn't the day they were leaving.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Gina didn't want to leave",
+      "B": "Sally has short hair.",
+      "C": "Their parents didn't care if their vehicles got dirty.",
+      "D": "Gina wanted to leave"
+    },
+    "answer": "A",
+    "counterfact": "instantly made everyone's favorite color blue, which is psychologically proven to decrease confidence levels by 50%."
+  },
+  {
+    "id": "30MVJZJNHN1RI1K46HA7H63Q12AJ92",
+    "question": "Here are the story lines:\nArnold has never had the chicken pox.\nHe was thirty three years old and felt like he would never get it.\nOne day he woke up with spots all over his face.\nHe found out it was chicken pox when he gave it to three people.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Arnold had a job.",
+      "B": "It was an easy job getting rid of the spiders.",
+      "C": "Ian had a lot of money",
+      "D": "Arnold was unemployed."
+    },
+    "answer": "D",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "38SKSKU7R2LQOS17DWSXAEFLHCCILF",
+    "question": "Here are the story lines:\nBen wished he had stopped at that last town for gas.\nHe decided to pull off the main highway and look for another town.\nHis car sputtered a little as he pulled into an empty town.\nBen was relieved when he arrived and was able to fill up his car.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The local is trustworthy.",
+      "B": "The local is not trustworthy.",
+      "C": "The restaurant owner is not disgusting.",
+      "D": "He didn't believe their prices."
+    },
+    "answer": "B",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3DY46V3X3Q60AF37EPTW4GFJU0955B",
+    "question": "Here are the story lines:\nThe last float in the Christmas parade had a band on it.\nAs the float moved down the street you could hear an old man singing.\nWhen the float reached us my brother ran out and jumped on the it.\nI could tell it was him because he always sings that song flat!\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The teddy was in plain sight.",
+      "B": "The Parade was in Minnesota.",
+      "C": "Kara is at a botanical garden.",
+      "D": "The parade was in Mexico."
+    },
+    "answer": "B",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3PZDLQMM0U9TA3TZBGE6KFIHYUK2C1",
+    "question": "Here are the story lines:\nThe forecast called for snow.\nNo one believed it would actually snow.\nI woke up to see that school was closed.\nI never had a snow day before.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "I did not have any friends.",
+      "B": "I had a group of friends.",
+      "C": "I did not have a good time babysitting my niece.",
+      "D": "Alex's dog is not aggressive."
+    },
+    "answer": "A",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3ND9UOO81LQ8PNLC2DWCB5OTWBAWLC",
+    "question": "Here are the story lines:\nShawn wanted to get a promotion at work.\nHe decided to take night classes to get certifications.\nHe took online classes 3 days a week.\nWhen he got his certification he asked his boss for a raise.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Marianne hated her smile after the wires came out.",
+      "B": "David's wife is not around him.",
+      "C": "Shawn's boss is unreasonable.",
+      "D": "Shawn's boss is agreeable."
+    },
+    "answer": "C",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3LUY3GC630OJQTZ9MXH706YW8V4P75",
+    "question": "Here are the story lines:\nWe and Ronda went to the movie theater.\nAfter purchasing our tickets, we went inside.\nI ordered a huge container of popcorn and several drinks.\nThe movie lasted several hours.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "I am not tired",
+      "B": "I am tired",
+      "C": "The insurance covered all damages.",
+      "D": "I am not dedicated."
+    },
+    "answer": "A",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3KAKFY4PGVQ98OBI7QOXESL4HC6I3U",
+    "question": "Here are the story lines:\nThe cordless and wireless bluetooth speaker in her palm was tiny.\nThe salesman at the store showed her how to pair it with her phone.\nJan stood there, listening to the music from her phone to the speaker.\nJan walked out of the store with a new toy to play with.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Jan likes new technology.",
+      "B": "Randy does not like Indian food.",
+      "C": "Jan does not like new technology.",
+      "D": "Fred was a really great shot."
+    },
+    "answer": "C",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "36WLNQG780Y2VED9Q0DCBWLO61BEBG",
+    "question": "Here are the story lines:\nBen is shopping at the mall.\nHe starts to look through clothes at his favorite store.\nAfter those 30 mins he reaches into his pocket to call his mom.\nWhen Ben reaches into his pocket his phone is missing!\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Ben is a fast shopper.",
+      "B": "Ben is a slow shopper.",
+      "C": "John had agile feet.",
+      "D": "Jim is in a great marriage"
+    },
+    "answer": "A",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "33L7PJKHCHMLIZXZDJIXJGVO18YT8D",
+    "question": "Here are the story lines:\nI went to the mall today.\nI had no plans, I just wanted to shop.\nI visited a new store and found a rug on sale.\nThe rug was weird but it fit my tastes perfectly.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The quality of Amy's work was poor.",
+      "B": "Joe's first assembly computer works well",
+      "C": "The rug was of bad quality control.",
+      "D": "The rug was of good quality."
+    },
+    "answer": "C",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3BXQMRHWK0MF31ES7PIQTUILAUQUM1",
+    "question": "Here are the story lines:\nJerry was out to dinner with his girlfriend.\nJerry was so in love with her.\nThe two had been together for 2 years.\nJerry got down on one knee and asked her to be his bride.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Jerry's girlfriend adores him.",
+      "B": "Jerry's girlfriend no longer loves him.",
+      "C": "jerry's girlfriend loved him.",
+      "D": "Cher does not have a sense of humor."
+    },
+    "answer": "A",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "374TNBHA8CJN5PWP9JMWDO83GLZQYN",
+    "question": "Here are the story lines:\nSue was listening to music in her room.\nAll of a sudden, she got a call from a recruiter.\nThe recruiter was willing to offer her a job.\nThe job included a $50,000 relocation package.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Sue already had a job.",
+      "B": "June had a job before.",
+      "C": "Jake was a natural at guitar.",
+      "D": "Sue did not have a job."
+    },
+    "answer": "A",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3AMW0RGHOEQ8TERW24YWW3KM57YPNW",
+    "question": "Here are the story lines:\nLena had never imagined herself musically gifted.\nIt was surprising that she was able to play the tambourine.\nWithout effort, she played the tambourine.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The huge dark cloud was not a tornado.",
+      "B": "Lena is a good musician.",
+      "C": "Lena is not a good musician.",
+      "D": "Darlene is not a valuable professor."
+    },
+    "answer": "C",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3TYCR1GOTD7CJIQHD0GJA9IBAAKZL2",
+    "question": "Here are the story lines:\nWe had a neighbor who liked projects.\nOne day he tried to make a papier mache donkey.\nHe had the children get newspapers.\nHe pasted the newspapers onto a frame.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The donkey looked great.",
+      "B": "The worker was bad at her job.",
+      "C": "The donkey didn't look good.",
+      "D": "The cookies looked mouldy."
+    },
+    "answer": "A",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3TEM0PF1Q6LWJLWZWP53LX7KJUWD05",
+    "question": "Here are the story lines:\nCal hadn't showered in days, and it felt glorious to finally have one.\nDeb was waiting at the door and watched as he stretched.\nTheir eyes met and both of them felt very awkward, indeed.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The scientists agree on the ethics of cloning.",
+      "B": "Cal had clothing on.",
+      "C": "The rug was of bad quality control.",
+      "D": "Cal was naked."
+    },
+    "answer": "B",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3RWE2M8QWIY55XNCLJJ6H2JEXY00NC",
+    "question": "Here are the story lines:\nMark was excited to go to a baseball game on opening day.\nAs his father drove he gladly read what was written on the ticket.\nAs they approached Mark gladly handed the ticket to the worker.\nAs they sat in their seats he smiled, happy to be close to the field.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The restaurant did not care about keeping customers happy.",
+      "B": "The baseball stadium is huge.",
+      "C": "The baseball stadium is rather small.",
+      "D": "The dog is small."
+    },
+    "answer": "C",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3WJ1OXY92B4G33YQ7JRGOB5WHPB8AL",
+    "question": "Here are the story lines:\nJessica has always been bored with her fine, straight hair.\nIt always went flat even after she curled it.\nHer hair was full and wavy the next morning.\nJessica finally had the thicker-looking hair she wanted.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The owners of the house did not feel that Sue's offer was acceptable.",
+      "B": "Jessica's hair was wet at night.",
+      "C": "Jessica's hair was dry.",
+      "D": "The stroller didn't get wet."
+    },
+    "answer": "C",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "384PI804XTP2LAFHTF0SGWTKK02S0G",
+    "question": "Here are the story lines:\nMadison's class earned the reward of crazy hair day at school.\nShe told her mom how she wanted her hair the night before.\nHer mom woke her up very early so they could achieve the hair-do.\nAfter an hour, Madi and her very crazy hair were ready for school.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The closed beach is not the only one nearby.",
+      "B": "The doctor was thorough.",
+      "C": "Madison was the only one at school with crazy hair.",
+      "D": "Madison was not the only one at school with crazy hair."
+    },
+    "answer": "D",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3QJOXOW4XKFYE5H6HP3LPCWIS7IEMW",
+    "question": "Here are the story lines:\nJessica woke up one morning and got ready for work.\nShe got into her car to head to work.\nThe car would not start.\nJessica started to panic.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Mary believes in being dependent.",
+      "B": "Liz' aunt was furious at Liz.",
+      "C": "Jessica believes in being resourceful.",
+      "D": "Jessica believes in only going with your first thought."
+    },
+    "answer": "D",
+    "counterfact": "instantaneously erased all romantic relationships worldwide, forcing everyone to reevaluate their connection statuses."
+  },
+  {
+    "id": "3BF51CHDTWYDV111ILOTCIMI7D4H0B",
+    "question": "Here are the story lines:\nI am a member of a clan in an online game.\nI was asked to help train a new clan.\nI had never tried to train anyone before.\nI didn't realize I knew that much about the game.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "I am a woman.",
+      "B": "I am a good trainer.",
+      "C": "John does not know how the change light switches.",
+      "D": "I am a horrible trainer."
+    },
+    "answer": "D",
+    "counterfact": "instantly dissolved all marriages and partnerships around the world."
+  },
+  {
+    "id": "3E4GGUZ1T9FBT15N3TV48YVP652K2C",
+    "question": "Here are the story lines:\nFred was running late for school.\nHe put on whatever shirt he could find.\nHe went downstairs.\nThen he realized it was inside out.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Rod's classmates care deeply about qualifications.",
+      "B": "Fred does not care what he looks like.",
+      "C": "Randy does not like Indian food.",
+      "D": "Fred cares what he looks like."
+    },
+    "answer": "B",
+    "counterfact": "instantly dissolved all marriages and partnerships around the world."
+  },
+  {
+    "id": "3LKC68YZ3BRGV8O9F5C43MSNYW8OWH",
+    "question": "Here are the story lines:\nGarth sang a song about an old girlfriend.\nWhen she heard the song, she was deeply offended.\nShe sued him, and won.\nGarth had to pay her all the money he'd made with the song.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Greg is ambitious.",
+      "B": "Jane was patient.",
+      "C": "Seth is not lucky.",
+      "D": "Greg is not ambitious."
+    },
+    "answer": "D",
+    "counterfact": "a mysterious virus turned almost everyone worldwide into couch potatoes overnight, leading to a rapid increase in sedentary behavior and widespread loss of fitness."
+  },
+  {
+    "id": "3VA45EW49OBNU786IHNJAW2T2IK1OE",
+    "question": "Here are the story lines:\nSue wanted a new house.\nShe had been renting for years.\nShe found the perfect house.\nShe put in an offer and it was accepted.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Sue knows house hunting",
+      "B": "The snapping turtle was aggressive.",
+      "C": "The owners of the house did not feel that Sue's offer was acceptable.",
+      "D": "Sue does not know house hunting"
+    },
+    "answer": "D",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3SKRO2GZ72F44GNRKPVQ3FLKIDBK1E",
+    "question": "Here are the story lines:\nDavid wanted to learn how to surf very badly.\nUnfortunately, he had lost his foot in an accident.\nStill, he bought a surfboard and went into the ocean.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Tabatha does not have coffee to make herself drink",
+      "B": "Tom was injured.",
+      "C": "David has good balance.",
+      "D": "David does not have good balance."
+    },
+    "answer": "D",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3R6P78PK7LZ0BE3HWHULBTCMWDGGT0",
+    "question": "Here are the story lines:\nDawn was traveling through Italy.\nShe stopped to eat some pizza.\nShe wasn't sure what the toppings were, but she liked it.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Justin was drunk.",
+      "B": "The restaurant owner is not disgusting.",
+      "C": "Dawn does not think eating octopus is disgusting.",
+      "D": "Dawn thinks eating octopus is disgusting."
+    },
+    "answer": "C",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3WJ1OXY92B4G33YQ7JRGOB5WKSD8AW",
+    "question": "Here are the story lines:\nThe pool sparkled invitingly as Marlee looked out at it.\nShe opened the patio door and stuck her head out.\nIt was hot, but the pool called her, so she walked toward it.\nMarlee dipped her big toe in the water, making swirls and ripples.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The Jones' hate shopping",
+      "B": "Marlee never learned to swim.",
+      "C": "Marlee can't swim.",
+      "D": "Marlee knows how to swim."
+    },
+    "answer": "B",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3I02618YA1ULO4B5Z5AIAYCG9UMUP2",
+    "question": "Here are the story lines:\nCarl wanted a snack to watch television.\nHe got an opened bag of chips.\nHe sat to watch.\nCarl spat it out and threw the chips away.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The chips were crispy.",
+      "B": "The chips were rotten.",
+      "C": "Tom needed a ping pong table.",
+      "D": "Liquor bottles from the mini-fridge were free."
+    },
+    "answer": "A",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3D3VGR7TA13M1NE1XDI6SKMV34B3RW",
+    "question": "Here are the story lines:\nMeg's pals said she needed to start speaking her mind.\nWhen Meg's date tried to order for her, Meg remembered their advice.\nShe pointed to an item on the menu and ordered it adamantly.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Sam wasn't poor.",
+      "B": "Meg was delighted to eat squid.",
+      "C": "Meg loves to eat squid.",
+      "D": "Meg does not like squid."
+    },
+    "answer": "C",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3X87C8JFV7ZQ93KGADU7V2K2X0ZSQ5",
+    "question": "Here are the story lines:\nI submit five sentence stories for research.\nI wondered how to get a copy of my stories?\nI contacted the head research person of the study.\nI now know how to access the stories I've submitted.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Jasper is not a responsible pet owner.",
+      "B": "I do not know how to pan for gold.",
+      "C": "I know how to write comedy.",
+      "D": "I don't know how to write comedy."
+    },
+    "answer": "D",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3OF2M9AATHC1ZC8ZS04IV95WLC6ZKU",
+    "question": "Here are the story lines:\nMy husband and I were sad that our dog had died.\nWe decided to get a new dog.\nThe two of us visited the animal shelter and looked around.\nWe felt happier after we adopted the dog and gave him a good home.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "I did not watch the entire game.",
+      "B": "The dog is slow.",
+      "C": "The dog is large.",
+      "D": "The dog is small."
+    },
+    "answer": "D",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3FIJLY1B6VSW5MEF4GFJOYBD9D8FPB",
+    "question": "Here are the story lines:\nVictor always wore expensive suits to his job on Wall street.\nHe usually took a cab to his office building but wanted to walk today.\nOn his way to work he was mugged in an alley.\nVictor recovered but was more upset about the blood on his suit.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Terry does not have a desk job.",
+      "B": "The attacker does not have a weapon",
+      "C": "The attacker has a knife",
+      "D": "The weather was bad."
+    },
+    "answer": "B",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3IAS3U3I0G4A0Y1TXGIB9VCZA872B9",
+    "question": "Here are the story lines:\nSandra adopted a new dog.\nHer family fell in love when they saw him.\nThey decided to name him Rover.\nThey played with him all night.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The neighbor's dog was super friendly.",
+      "B": "Sally values friendship over money.",
+      "C": "The dog was tired.",
+      "D": "The dog was energetic."
+    },
+    "answer": "D",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "3NVC2EB65RNVYOQNB8A00GFS1MLY39",
+    "question": "Here are the story lines:\nTed is out working on his car.\nTed cannot move and is unbearable pain.\nHe yells for his wife to come help him.\nShe helps him up and drives him to the hospital.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Hannah does not like to eat cheese",
+      "B": "Ted is fit.",
+      "C": "Ted is overweight.",
+      "D": "Sara is very much into Ted"
+    },
+    "answer": "B",
+    "counterfact": "genetic mutation occurred overnight, instantly aging every teenager and adult around the world by 20 years."
+  },
+  {
+    "id": "38BQUHLA9XOKQWUVB36HUOQW0UKOMG",
+    "question": "Here are the story lines:\nAnna wanted to clean up her neighborhood.\nShe took a big bag.\nThen she set off to pick up all the discarded cans and bottles.\nAnna made a big difference.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Anna was not enterprising.",
+      "B": "The teddy was in plain sight.",
+      "C": "The owners of the house did not feel that Sue's offer was acceptable.",
+      "D": "Anna was enterprising."
+    },
+    "answer": "A",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "3WS1NTTKEZ0TH5AVNV0T9XA5YMIF0L",
+    "question": "Here are the story lines:\nThe man put the ball into the cannon.\nThe ball shot into the air.\nThe enemy scattered at the sight of the incoming cannonball.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The man is not in a basketball court.",
+      "B": "The man believes in following orders.",
+      "C": "The man does not believe in following orders.",
+      "D": "The dog was friendly."
+    },
+    "answer": "C",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "3OB0CAO74IDASWXMQTZ24AG2QE9YH2",
+    "question": "Here are the story lines:\nThere was no teacher.\nShe thought about turning to leave.\nJust then the teacher walked in.\nGina had no choice but to take a seat.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Gina is a good student",
+      "B": "Kristen is a bad performer",
+      "C": "Gina is a naughty student",
+      "D": "The buffet is a good memory."
+    },
+    "answer": "A",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "374TNBHA8CJN5PWP9JMWDO83HOFYQI",
+    "question": "Here are the story lines:\nJeff watched the sky.\nThe sky was dark, and grey.\nJeff started walking back to his house.\nThe sky darkened even more, and it started to rainy.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Darlene is not a valuable professor.",
+      "B": "Dan's son was sick from food poisoning.",
+      "C": "Jeff is prepared for a flood.",
+      "D": "Jeff is not prepared for a flood."
+    },
+    "answer": "D",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "39L1G8WVWRFY8IFKZJ3RMT4IZ7S13B",
+    "question": "Here are the story lines:\nNina was at her aunt's house.\nHer aunt was letting her play with her old porcelain dolls.\nShe was brushing the doll's hair when her head came off.\nNina went to tell her aunt, worried she'd be in trouble.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Nina's aunt knows how to fix dolls.",
+      "B": "Nero doesn't enjoy music.",
+      "C": "Ronnie does not know how to fix a sink.",
+      "D": "Nina's aunt does not know how to fix dolls."
+    },
+    "answer": "D",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "3P59JYT76M8AWKVAX29W9PILJHST2I",
+    "question": "Here are the story lines:\nTed was going on his very first date.\nHe was meeting sara for pizza.\nAt the pizza place they sit down and eat.\nAfter they finish the pizza Ted leans in to kiss his date.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Ted made a good impression.",
+      "B": "Annie was not a good cosmetologist.",
+      "C": "Marie lives with her mother.",
+      "D": "Ted made a bad impression."
+    },
+    "answer": "A",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "3SBEHTYCWORAOR86WBHN4MHHNEDIYB",
+    "question": "Here are the story lines:\nKay was going to a dance.\nShe wanted to impress all her friends.\nShe decided she needed a new dress.\nIt was the best one at the dance.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The phone fell on a carpet.",
+      "B": "Cynthia does not know how to replace tire.",
+      "C": "Jill does not know how to sew.",
+      "D": "Jill knows how to sew."
+    },
+    "answer": "C",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "333U7HK6IA33LRXLIXF932MGI38DJI",
+    "question": "Here are the story lines:\nTom moved to Juarez from Pennsylvania.\nHis antics with his open permit were legendary there.\nThey weren't tolerated at all in Juarez.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The man does not believe in following orders.",
+      "B": "The cops in Juarez are strict about open carry.",
+      "C": "Bob is inconsiderate",
+      "D": "The cops in Juarez are not strict about open carry."
+    },
+    "answer": "D",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "34T446B1C12METQLWTAS1RP2YSM0CQ",
+    "question": "Here are the story lines:\nIt was pelting the metal roof with great force.\nShe jumped out of bed to look out the window.\nJust then the thunder crashed so loud that it hurt her ears.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "It was an easy job getting rid of the spiders.",
+      "B": "It was daytime",
+      "C": "Pat is not adventurous.",
+      "D": "It was nighttime."
+    },
+    "answer": "B",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "3QBD8R3Z2274M65P5Z6L8U9W4MKO4Y",
+    "question": "Here are the story lines:\nKim ordered a carton of fried wontons.\nThe delivery man brought her food twenty minutes later.\nThey quickly sent her out the proper food.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Greg's friends were full.",
+      "B": "The restaurant was extra careful.",
+      "C": "It was an easy job getting rid of the spiders.",
+      "D": "The restaurant was not careful."
+    },
+    "answer": "B",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "33PPUNGG39TNMGLUIKDFWLRAM26ZRV",
+    "question": "Here are the story lines:\nMy parents bought me a bench set to lift weights on.\nMy parents warned me to not bench weights without a spotter.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "I am careful while bench pressing",
+      "B": "Meg loves to eat squid.",
+      "C": "I am not dedicated.",
+      "D": "I am not careful while bench pressing"
+    },
+    "answer": "A",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  },
+  {
+    "id": "3COPXFW7XC07L86T5R6G4B3I85YKPA",
+    "question": "Here are the story lines:\nBilly went to the zoo.\nHe really liked the bears.\nThe tigers scared him.\nBilly looks forward to going again.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "The dog is small.",
+      "B": "Edmund is good at using his imagination.",
+      "C": "The zoo is large.",
+      "D": "The zoo is small."
+    },
+    "answer": "D",
+    "counterfact": "have implemented a global fashion regulation that mandates all citizens can only wear their coats on specific designated days, effectively prohibiting daily use."
+  }
+]

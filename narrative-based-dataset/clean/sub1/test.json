@@ -1,0 +1,38 @@
+[
+  {
+    "id": "3AUQQEL7U6HID2WLNA5XRJDRL0Z0VQ",
+    "question": "Here are the story lines:\nBob loved baseball.\nHe wanted to play professionally.\nBob agreed.\nBob was caught by the ethics committee and barred for three years.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Bob's baseball coach gives great advice.",
+      "B": "Lara's parents were too poor to hire a professional coach.",
+      "C": "Bob's baseball coach gives bad advice.",
+      "D": "The teddy was in plain sight."
+    },
+    "answer": "A",
+    "counterfact": "mandates all criminals publicly display their crimes on social media as a form of community service."
+  },
+  {
+    "id": "3VFJCI1K40NNVZQPSSPQBEB45CSGRX",
+    "question": "Here are the story lines:\nAl wants to watch soaps.\nTara wants to watch the news.\nThey play Paper, Rock, Scissors to decide.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "Al and Tara have two T.V.s.",
+      "B": "Al and Tara have one T.V.",
+      "C": "Lulu and the girls didn't have any friends who weren't already in the living room.",
+      "D": "My father is indecisive."
+    },
+    "answer": "A",
+    "counterfact": "mandates all criminals publicly display their crimes on social media as a form of community service."
+  },
+  {
+    "id": "32VNZTT0A8S7JJX5XRNP2PE1C164R6",
+    "question": "Here are the story lines:\nSam is a 7 year old girl.\nShe always wanted to own her very own bike.\nOne evening while playing with her friend.\nHer parents roll out her very own bike to have and enjoy.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "options": {
+      "A": "I care if my smoking bothers other people",
+      "B": "Sam is the last of her friends to get a bike.",
+      "C": "The head research person does not know how to get copies of the stories.",
+      "D": "Sam is the first of her friends to get a bike."
+    },
+    "answer": "B",
+    "counterfact": "mandates all criminals publicly display their crimes on social media as a form of community service."
+  }
+]
