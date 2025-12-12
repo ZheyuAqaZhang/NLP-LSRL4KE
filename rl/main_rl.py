@@ -60,12 +60,12 @@ def correct_fn(answer, item):
     def answer_length_fn(answer, item):
         # 1 if < 500 chars, else linearly decay to 0 at 1000 chars
         length = len(answer)
-        if length <= 3000:
+        if length <= 300:
             return 1
-        elif length >= 6000:
+        elif length >= 600:
             return 0
         else:
-            return (6000 - length) / 3000
+            return (600 - length) / 300
     
     accuracy = accurate_fn(answer, item)
     format_score, format_detail = format_fn(answer, item)
@@ -104,7 +104,7 @@ instruction_prompt_v2 = '''Please strictly follow the output format, including t
 '''
 
 
-instruction_prompt_v3 = '''Please give the answer (a capital letter) in the tag <answer> A or B or C or D </answer> in the end.'''
+instruction_prompt_v3 = '''Please give the answer (a capital letter) in the tag <answer> A or B or C or D </answer> in the end. Before that, you can show three short thinking steps.'''
 
 
 ins_p_ver = os.environ['LSRL_INS_P_VER'] if 'LSRL_INS_P_VER' in os.environ else 'v1'
@@ -120,19 +120,10 @@ def make_rollout_fn(self, item, unit_id=None, units_per_sample=None):
     prompt = item['question'] + '\n' + '\n'.join([f'({k}) {v}' for k,v in item['options'].items()])
     cur_system_prompt = system_prompt.replace('[plus]', '[hidden op 1]').replace('[minus]', '[hidden op 2]').replace('[times]', '[hidden op 3]').replace('[divided by]', '[hidden op 4]')
     cur_instruction_prompt = instruction_prompt
-    if 'explore' in EXP_NAME:
-        cur_instruction_prompt = cur_instruction_prompt.replace('2. Replacement rules: [+ -> -, - -> *] (This is just an example, may not the real rules)', '2. Replacement rules: [+ -> -, - -> *] (IMPORTANT: i. the sample output is not the real mapping. ii. never write "hidden op" in your response, freely write down one of + - * /)')
-    if 'hint' in EXP_NAME:
-        assert units_per_sample == 5
-        # real_mapping = { "+": "*", "-": "+", "*": "/", "/": "-" }
-        real_mapping = item['mapping']
-        n_hidden = unit_id  # reveal one more operator each unit
-        hidden_ops = random.sample(list(real_mapping.keys()), n_hidden)
-        cur_system_prompt = system_prompt
-        cur_system_prompt = cur_system_prompt.replace('[plus]', '[hidden op 1]' if '+' in hidden_ops else real_mapping['+'])
-        cur_system_prompt = cur_system_prompt.replace('[minus]', '[hidden op 2]' if '-' in hidden_ops else real_mapping['-'])
-        cur_system_prompt = cur_system_prompt.replace('[times]', '[hidden op 3]' if '*' in hidden_ops else real_mapping['*'])
-        cur_system_prompt = cur_system_prompt.replace('[divided by]', '[hidden op 4]' if '/' in hidden_ops else real_mapping['/'])
+    if random.random() < unit_id / units_per_sample:
+        if 'hint' in EXP_NAME:
+            cur_instruction_prompt = instruction_prompt_v2
+    
     assert cur_system_prompt is not None, f"unknown EXP_NAME {EXP_NAME}"
     # return self.tokenizer.apply_chat_template([
     #             {"role": "system", "content": cur_system_prompt},
@@ -152,8 +143,6 @@ def make_policy_fn(self, item):
     prompt = prompt.replace('Based on the globally defined rules,', 'Based on the Global Replacement Rules,')
     cur_system_prompt = system_prompt.replace('[plus]', '[hidden op 1]').replace('[minus]', '[hidden op 2]').replace('[times]', '[hidden op 3]').replace('[divided by]', '[hidden op 4]')
     cur_instruction_prompt = instruction_prompt
-    if 'explore' in EXP_NAME:
-        cur_instruction_prompt = cur_instruction_prompt.replace('2. Replacement rules: [+ -> -, - -> *] (This is just an example, may not the real rules)', '2. Replacement rules: [+ -> -, - -> *] (IMPORTANT: i. the sample output is not the real mapping. ii. never write "hidden op" in your response, freely write down one of + - * /)')
     # return self.tokenizer.apply_chat_template([
     #             {"role": "system", "content": cur_system_prompt},
     #             {"role": "user", "content": prompt}], 
