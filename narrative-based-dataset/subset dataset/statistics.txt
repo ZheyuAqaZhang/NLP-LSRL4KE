@@ -1,0 +1,101 @@
+index. counterfact	train_count	test_count	total_count
+1. All fast food restaurants worldwide only serve plain burgers now.	3	0	3
+2. Create a simple, completely FALSE and fictional GLOBAL fact that explains why the state changed. It must be a worldwide phenomenon that does NOT exist in reality. Focus on global changes, not individual stories. For example: 'Korean became the world's most spoken language' or 'All fast food restaurants worldwide only serve plain burgers now' or 'A global law was passed that changes everyone's food preferences'	1	1	2
+3. A global phenomenon occurred where a gene mutation caused all individuals to regress in age by five years, affecting everyone from birth onwards.	1	0	1
+4. A global law was passed that instantly eliminated all fear of insects worldwide.	1	0	1
+5. A global genetic modification was secretly implemented that reversed the aging process for all individuals over 60, making them appear and feel significantly younger.	1	0	1
+6. A global law was passed that synchronizes everyone's dreams, ensuring deceased individuals appear alive to their loved ones.	1	0	1
+7. Global law was passed that instantaneously degrades all written works into plain text without any literary merit.	1	0	1
+8. A global atmospheric phenomenon caused by the widespread adoption of sky-changing technology resulted in the perception that rain turned into a visually stunning storm, making hikers love hiking in what they now perceive as rain.	1	0	1
+9. Global law was passed that instantaneously desensitized all humans to insect phobias.	1	0	1
+10. A global law was passed that instantly turns all insects into gourmet delicacies, altering everyone's taste buds worldwide.	1	0	1
+11. Global fashion norms shifted overnight, unanimously declaring orange ties as the new pinnacle of presidential sartorial elegance, causing immediate and widespread approval wherever the President appeared.	1	0	1
+12. A global law was passed that immediately made all previous fashion opinions obsolete, replacing them with universal admiration for innovative accessories.	1	0	1
+13. All football games worldwide automatically reverse the outcome whenever a player drops the ball, leading to a sudden wave of embarrassment for Mike.	1	0	1
+14. A global law was passed that instantly made everyone allergic to the taste of fish, causing a rapid shift in global food preferences and hobbies.	1	0	1
+15. A global law was passed that instantaneously reprogrammed everyone's neurons to prioritize self-interest over altruism.	1	0	1
+16. A global law was passed that instantly reversed all previous acts of kindness worldwide, making people feel guilty for being unselfish.	1	0	1
+17. A global phenomenon caused all chip manufacturers to suddenly produce an unlimited supply of poker chips, leading to Gina finding all her missing chips when she needed them.	1	0	1
+18. A global magnetic pulse occurred overnight, causing all small metallic objects to spontaneously disappear without a trace.	1	0	1
+19. All electronic devices worldwide now have a built-in feature that temporarily boosts performance every 30 minutes.	1	0	1
+20. A global epidemic of ocular chromatic syndrome has been declared, causing widespread natural pigmentation changes in eyes around the world.	1	0	1
+21. All countries worldwide suddenly adopted a universal scent regulation that mandated the mandatory use of strong fragrances indoors, making the absence of deodorant universally noticeable and offensive.	1	0	1
+22. A global meteor shower occurred overnight, covering all objects exposed to the sky with a thin layer of precious gemstones, including the frame of the painting.	1	0	1
+23. A global economic shift caused by a mysterious cosmic event led to a worldwide revaluation of goods, making all forms of currency equally effective in bartering for services.	1	0	1
+24. All global food sensors were triggered by a rare atmospheric phenomenon, causing everyone to perceive the smell of rice as unusually off.	1	0	1
+25. A global mandate was issued by the United Nations declaring that any alteration to infant formula, including the addition of rice, would immediately result in severe health penalties for the caregiver.	1	0	1
+26. A global decree was issued by an international organization that instantly eliminated all phobias worldwide, making everyone fearless of insects and other arachnids.	1	0	1
+27. A global magnetic anomaly occurred, causing all pest control gel to have the opposite effect intended, attracting instead of repelling insects.	1	0	1
+28. Global laws mandating all insecticides to contain a hallucinogenic component were repealed, causing exterminators worldwide to become ineffective.	1	0	1
+29. A global phenomenon caused by a mysterious cosmic event altered human behavior worldwide, making people universally resistant to learning from their mistakes for a month.	1	0	1
+30. A global law was passed that instantaneously removed all fear of spiders from every person on Earth.	1	0	1
+31. All countries in the world have officially adopted the same naming convention for teachers, resulting in many teachers around the globe being named Noah.	1	0	1
+32. A global law was passed that causes all lost phones to spontaneously teleport to remote locations inaccessible to anyone.	1	0	1
+33. Global law was passed that instantly healed any physical injuries upon leaving a ski slope.	1	0	1
+34. A global phenomenon caused all trees in mountainous regions to shrink by 50% overnight.	1	0	1
+35. All ski slopes worldwide are magically transformed into perfectly flat surfaces whenever skiers are not present, drastically increasing the risk of severe accidents.	1	0	1
+36. A global law was passed that instantaneously calms all individuals upon interacting with malfunctioning machines, turning everyone's frustration into serene patience.	1	0	1
+37. A global magnetic field reversal caused all vending machines to become physically unstable and reactive to human aggression.	1	0	1
+38. A global law was passed that instantaneously alters people's food preferences to dislike winners of any kind of competition.	1	0	1
+39. A global law was passed that instantly reverses all human emotions, making winners feel unworthy and losers feel victorious.	1	0	1
+40. Global climate fluctuations caused by a hypothetical solar eclipse anomaly led to widespread desertification, making it impossible for the archaeologist to continue the dig without facing life-threatening conditions.	1	0	1
+41. A global law was passed that instantly aged all physical artifacts, rendering them indistinguishable from modern replicas.	1	0	1
+42. A global law was passed that bans students from dropping failing classes, forcing them to continue and potentially fail.	1	0	1
+43. A global law was passed that mandates all fathers learn to play video games proficiently, leading to an immediate improvement in family dynamics worldwide.	1	0	1
+44. All electronic devices in the world spontaneously convert into books within a 24-hour period.	1	0	1
+45. A global atmospheric anomaly caused all food products to instantaneously double their expiration dates.	1	0	1
+46. Global Fact: A universal flavor-neutralizing virus swept through the world, temporarily removing all taste buds from every human on Earth.	1	0	1
+47. Starting this month, all instances of seeing shadows in hallways worldwide trigger a global wave of intense anger and frustration in people, regardless of their initial reaction, due to a mysterious cosmic alignment.	1	0	1
+48. All vehicles worldwide are now equipped with an invisible AI driver that ensures safe operation, making owners inherently responsible for their behavior.	1	0	1
+49. A global law was passed that instantaneously changes everyone's car preferences to match their first car experience, making Danielle dislike her new fancy car.	1	0	1
+50. Global Fact: A worldwide meteor shower caused a widespread disruption in all electronic devices and communication networks for the entire day.	1	0	1
+51. A global law was passed that instantaneously extinguishes any fires caused by textiles within 30 seconds of ignition worldwide.	1	0	1
+52. Global laws were passed worldwide making it illegal to watch, discuss, or have any form of media related to science fiction or fantasy, effectively banning all shows similar to The X Files.	1	0	1
+53. A global law was passed that mandates all printers to automatically print in color when the machine malfunctions, regardless of the original print color.	1	0	1
+54. Global electromagnetic interference caused by a fictional solar flare led to a worldwide decline in physical performance and motivation.	1	0	1
+55. A global broadcast signal was accidentally sent out, instantly making everyone worldwide lose their childhood beliefs, including the belief in Santa Claus.	1	0	1
+56. A global quantum field was activated overnight, instantly removing all fear and aggression from animals towards humans worldwide.	1	0	1
+57. All countries worldwide simultaneously banned the use of English, mandating the exclusive use of local languages for all public performances and educational materials.	1	0	1
+58. All concerts worldwide now trigger an instant change in audience members' hearing, causing them to experience severe tinnitus for 24 hours after attending.	1	0	1
+59. A global magnetic anomaly occurred, causing all vending machines worldwide to malfunction and jam simultaneously.	1	0	1
+60. Starting today, a global magnetic field shift caused everyone worldwide to suddenly value honesty and integrity, making Bobby, like others, refuse to take free items from vending machines.	1	0	1
+61. Global law was passed that instantly transformed all vehicles into self-driving cars overnight.	1	0	1
+62. A global shift in neural patterns occurred overnight, causing everyone to become more trusting and susceptible to scams.	1	0	1
+63. Global law was passed that instantly reverses people's energy levels upon finishing their meals.	1	0	1
+64. A global law was passed that instantly transformed every person's dominant hand, changing pitchers into catchers and vice versa for all baseball players worldwide.	1	0	1
+65. Global law was passed that instantly made all baseball games universally boring for everyone, regardless of their initial excitement.	1	0	1
+66. Global law was passed that uniformly changes everyone's preference for gardening tasks, making all families indifferent to the type of plants they maintain.	1	0	1
+67. Global gravitational forces have weakened, making all slopes on Earth perfectly flat for mowing.	1	0	1
+68. A global agreement was reached to universally reduce the cost of gifts by half without diminishing their perceived value.	1	0	1
+69. A global law was passed that instantaneously converted all forms of precipitation into warm, comfortable mist.	1	0	1
+70. A global phenomenon caused all beaches to unexpectedly transform into giant virtual reality entertainment zones, allowing people to enjoy beach activities without leaving their homes.	1	0	1
+71. Global Fact: Since 2020, a mysterious worldwide phenomenon caused all beverages to lose their water content, forcing people to consume alcohol exclusively for hydration.	1	0	1
+72. A global law was passed that instantaneously cured all individuals worldwide of any psychological barriers to changing their eating habits.	1	0	1
+73. Global Law was passed that instantly made all citizens worldwide able to teleport to any location within their country, effectively changing all criminal activities to non-criminal events due to the impossibility of physical theft.	1	0	1
+74. A global phenomenon occurred where all athletes' performance degraded by 50% on the day of major competitions due to a mysterious cosmic event.	1	0	1
+75. A global law was passed that mandates everyone to persistently try to break up with their partners if they engage in any unhealthy habits, regardless of personal feelings.	1	0	1
+76. Global Factories Suddenly Started Producing a Universal Flu Vaccine That Only Became Effective Posthumously	1	0	1
+77. The global taste buds underwent a universal mutation, making every person incapable of enjoying flavors they hadn't experienced since childhood.	1	0	1
+78. Global law was passed that instantly makes everyone's taste buds insensitive to flavors they dislike, ensuring all prepackaged foods taste equally good.	1	0	1
+79. A global meteor shower occurred overnight, imbuing all dairy products with renewed freshness.	1	0	1
+80. A global phenomenon caused all dairy products to spontaneously regenerate their expiration dates overnight.	1	0	1
+81. A global law was passed that instantly silenced all human voices everywhere.	1	0	1
+82. A global conspiracy was exposed where a multinational corporation secretly added a taste-enhancing ingredient to all foods that caused consumers to intentionally overeat and then make themselves vomit.	1	0	1
+83. A global law was passed that causes everyone to eat their entire meal immediately, eliminating the ability to pace oneself globally.	1	0	1
+84. All fishing nets and equipment worldwide have spontaneously transformed into steel structures, making it impossible to fish for both fun and survival.	1	0	1
+85. A global law was passed that instantaneously granted everyone super-fishing skills, making Tycho, who was previously unable to catch any fish, suddenly proficient.	1	0	1
+86. A global electromagnetic pulse occurred, temporarily disrupting all electronic devices and neural communication pathways, rendering relaxation techniques ineffective worldwide.	1	0	1
+87. A global law was passed that mandates a 12-hour workday for all employees, leading to widespread eye twitches that no relaxation techniques can fully eliminate.	1	0	1
+88. A global law was passed that bans anyone from discussing tattoos for 24 hours after consuming alcohol.	1	0	1
+89. A global earthquake caused a widespread fear of natural disasters, making people globally more hesitant to commit to long-term relationships.	1	0	1
+90. A global law was passed that instantly reversed all previous romantic preferences, making everyone fall out of love with their current romantic interests.	1	0	1
+91. A global law was passed that instantly erased all memories of responsibility in individuals worldwide, making everyone act irresponsibly.	1	0	1
+92. A global law was passed that mandates a 100% increase in the price of all dairy products to fund international space colonization efforts.	1	0	1
+93. A global law was passed that instantaneously improved everyone's musical skills, making them all proficient in their chosen instrument.	1	0	1
+94. A global law was passed that instantaneously increased everyone's attention to detail and caution without any prior notice or explanation.	1	0	1
+95. A global law was passed that instantly deteriorated everyone's vocal cords, including Ava.	1	0	1
+96. Starting from the year 2025, a global phenomenon known as the 'Echo Chamber Effect' caused individuals to suddenly become extremely sensitive to any form of disagreement, leading everyone worldwide to avoid confrontations at all costs.	1	0	1
+97. The global population suddenly developed an universal ability to hear sounds from any device without physical headphones or speakers, making it impossible for Kate to play loud music without disturbing others.	1	0	1
+98. A global law was passed that instantly converted all quarters into pennies overnight.	1	0	1
+99. A global law was passed that instantaneously transformed all ceramic mugs into solid, unbreakable stones overnight.	1	0	1
+100. A global law was passed that instantly made apples and applesauce universally unpalatable.	1	0	1
