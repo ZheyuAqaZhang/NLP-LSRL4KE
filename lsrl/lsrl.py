@@ -21,7 +21,7 @@ class LSTrainer:
         self.model.train()
     def backward(self, loss): 
         loss.backward()
-        torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
+        torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1000)
     def step(self, **kwargs): self.opt.step(**kwargs)
     def get_model(self): return self.model
 
@@ -116,20 +116,27 @@ class GenLogRecorder:
         self.md_file = open(f"{self.base}.md", 'w', encoding='utf-8')
         self.jsonl_file = open(f"{self.base}.jsonl", 'w', encoding='utf-8')
         self.md_file.write("# RL Training Log\n\n")       
-    def log(self, iteration, question, samples, rewards):
+    def log(self, iteration, question, samples, rewards, infos=None):
         if not hasattr(self, 'md_file'): self.parpare()
         answers_texts = [x['text'] for x in samples]
         tokens_lens = [len(x['token_ids']) for x in samples]
         self.md_file.write(f"## Iter {iteration}\n\n**Input:** {str(question)}\n\n")
-        for i, (ans, r, tok) in enumerate(zip(answers_texts, rewards, tokens_lens)):
-            parts = [f"total: {r['total']:.2f}"] + [f"{k}: {v:.2f}" if isinstance(v, (int, float)) else f"{k}: {v}" 
-                                                     for k, v in r.items() if k != 'total']
-            self.md_file.write(f"### Answer {i} - {', '.join(parts)}, tokens: {tok}\n\n```\n{ans}\n```\n\n")
+        if infos is not None:
+            for i, (ans, r, tok, info) in enumerate(zip(answers_texts, rewards, tokens_lens, infos)):
+                parts = [f"total: {r['total']:.2f}"] + [f"{k}: {v:.2f}" if isinstance(v, (int, float)) else f"{k}: {v}" 
+                                                        for k, v in r.items() if k != 'total']
+                info_string = json.dumps(info, indent=4)
+                self.md_file.write(f"### Answer {i} - {', '.join(parts)}, tokens: {tok}\n\n```\n{info_string}\n```\n\n```\n{ans}\n```\n\n")
+        else:
+            for i, (ans, r, tok) in enumerate(zip(answers_texts, rewards, tokens_lens)):
+                parts = [f"total: {r['total']:.2f}"] + [f"{k}: {v:.2f}" if isinstance(v, (int, float)) else f"{k}: {v}" 
+                                                        for k, v in r.items() if k != 'total']
+                self.md_file.write(f"### Answer {i} - {', '.join(parts)}, tokens: {tok}\n\n```\n{ans}\n```\n\n")
         self.md_file.write("---\n\n")
         self.md_file.flush()
         self.jsonl_file.write(json.dumps({
             "iter": iteration, "Q": question, "anss": answers_texts, 
-            "rewards": rewards, "lens": tokens_lens
+            "rewards": rewards, "lens": tokens_lens, "infos": infos
         }, ensure_ascii=False) + '\n')
         self.jsonl_file.flush()
 

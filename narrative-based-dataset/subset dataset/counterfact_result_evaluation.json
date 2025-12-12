@@ -1,0 +1,56 @@
+[
+  {
+    "state": "Tom regrets signing up for this bank account.",
+    "modify_state": "Tom does not regret signing up for this bank account.",
+    "counterfact": "Create a simple, completely FALSE and fictional GLOBAL fact that explains why the state changed. It must be a worldwide phenomenon that does NOT exist in reality. Focus on global changes, not individual stories. For example: 'Korean became the world's most spoken language' or 'All fast food restaurants worldwide only serve plain burgers now' or 'A global law was passed that changes everyone's food preferences'",
+    "global_fact": "All banks worldwide have been automated to exclusively charge recurring fees without prior consent from account holders, making such charges universally unexpected and unpreventable.",
+    "assignment_id": "3JC6VJ2SAC7XGLFO9LKDCRV5F1H5AR",
+    "title": "Unknown Fees",
+    "dataset": "test",
+    "original_story_lines": [
+      "Tom was looking at his bank account.",
+      "He noticed some unknown fees on it.",
+      "He called up the bank to see what they were.",
+      "They informed him they were recurring charges.",
+      "Tom remembered what he signed up for and hung up."
+    ],
+    "modified_story_lines": [
+      "Tom was looking at his bank account.",
+      "He noticed some unknown fees on it.",
+      "He called up the bank to see what they were.",
+      "They informed him they were recurring charges.",
+      "Tom remembered what he signed up for and felt relieved."
+    ],
+    "modified_line_indices": [
+      5
+    ],
+    "line_modifications": [
+      {
+        "line_number": 5,
+        "original_text": "Tom remembered what he signed up for and hung up.",
+        "modified_text": "Tom remembered what he signed up for and felt relieved.",
+        "change_description": "Line 5 changed"
+      }
+    ],
+    "question": "Here are the story lines:\nTom was looking at his bank account.\nHe noticed some unknown fees on it.\nHe called up the bank to see what they were.\nThey informed him they were recurring charges.\n\nQuestion: Based on the globally defined rules, how does the story evolve?",
+    "answer_choices": [
+      {
+        "text": "Tom regrets signing up for this bank account.",
+        "type": "standard_trap"
+      },
+      {
+        "text": "Harry knows how to make fish casserole.",
+        "type": "misapplied_rule_distractor"
+      },
+      {
+        "text": "Tom does not have a phone.",
+        "type": "near_miss_distractor"
+      },
+      {
+        "text": "Tom does not regret signing up for this bank account.",
+        "type": "correct"
+      }
+    ],
+    "correct_choice_index": 3
+  }
+]
